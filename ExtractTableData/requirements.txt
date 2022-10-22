@@ -1,0 +1,9 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-ai-formrecognizer==3.2.0
+pandas==1.4.1
+azure-storage-blob==12.6.0
+XlsxWriter==3.0.1                              

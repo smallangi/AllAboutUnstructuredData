@@ -1,4 +1,3 @@
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -21,6 +20,7 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -50,7 +50,6 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-cover/
 
 # Translations
 *.mo
@@ -73,7 +72,6 @@ instance/
 docs/_build/
 
 # PyBuilder
-.pybuilder/
 target/
 
 # Jupyter Notebook
@@ -84,9 +82,7 @@ profile_default/
 ipython_config.py
 
 # pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
+.python-version
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
@@ -106,7 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-local.env
+.env
 .venv
 env/
 venv/
@@ -132,112 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# Azure ML
-.azureml/config.json
-.config/
-*.npz
-*.npy
-*.zip
-*.pt
-dataset/
-*.gz
-.git/
-analyst_data/
-
-# Readable tf plans 
-*.tfplan.txt
-
-# Terraform
-/infrastructure/minted
-.terraform*
-*.tfstate.d
-inf_output.json
-infrastructure.env
-
-# License Report
-LICENSE_REPORT*
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# User-specific files (MonoDevelop/Xamarin Studio)
-*.userprefs
-
-# Azurite
-**/azurite/__*
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-
-# NuGet Packages
-*.nupkg
-# The packages folder can be ignored because of Package Restore
-**/packages/*
-# except build/, which is used as an MSBuild target.
-!**/packages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
-#!**/packages/repositories.config
-# NuGet v3's project.json files produces more ignoreable files
-*.nuget.props
-*.nuget.targets
-
-# Azure Functions localsettings file
-local.settings.json
-
-# Local appSettings
-appsettings.Development.json
-webapps/minted/.vs/AzureSemanticSearchDemo/DesignTimeBuild/.dtbcache.v2
-webapps/minted/.vs/AzureSemanticSearchDemo/config/applicationhost.config
-
-# MacOS
+# OS file store
 .DS_Store
 
-# auto-generated manifest file for batch file script
-tools/batch_file_generator/manifest.txt
-
-# any downloaded packages
-artifacts/custompackages
-artifacts/*
-webapps/minted/.vs/Minted/config/applicationhost.config
-
-# anomaly_detection
-image_tag.txt
-ship_anomaly_detection/gdal_server.py
-
-# .jar files
-*.jar
-
-# ML models 
-ship_detection_model_api/models
-
-#node modules folder
-node_modules
-
-#package-lock file created by doing npm build
-webapps/minted/package-lock.json
-
-#wwwroot folders
-webapps/minted/www2root
-webapps/minted/wwwroot/js/azure_blob_lib.js
-webapps/minted/wwwroot/js/azure_blob_lib.js.LICENSE.txt
-
-#package files for the JsLib
-webapps/minted/JsLib/package-lock.json
+# ENV
+.env

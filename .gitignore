@@ -133,3 +133,14 @@ dmypy.json
 
 # ENV
 .env
+.vscode/tasks.json
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+.vs/AllAboutUD/v16/.suo
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/slnx.sqlite
+.vs/slnx.sqlite
+.gitignore
+.vs/slnx.sqlite

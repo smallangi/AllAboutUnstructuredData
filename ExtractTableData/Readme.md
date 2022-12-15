@@ -1,6 +1,10 @@
-This function extract Table data using Form Recognizer and generate Excel with all the tables. 
+Documents can contain Table data. Example: Earning reports, Purchase order forms, Technical and Operational manuals etc. You may need to extract this table data into Excel for futher processing. 
+* Extract each table into a specific worksheet in Excel
+* Extract the data from all the similar tables and aggregate that data into single table
 
-* Each table on a page gets stored to a sheet in the Excel document. Sheet name corresponds to page number in the document
+ This function extract Table data using Form Recognizer's Layout Model and generate Excel file with all the extracted tables. 
+
+* Each table on a page gets extracted and stored to a sheet in the Excel document. Sheet name corresponds to page number in the document. 
 * Sometimes there are key value pairs on the page that needs to be captured in the table. If you need that feature leverage the add_key_value_pairs flag
 * Form recognizer extracts column and row spans. We took advantage of it to present the data as it is represented in the actual table. 
 
@@ -23,7 +27,10 @@ To deploy the function:
     * FORMS_RECOGNIZER_ENDPOINT  
     * FORMS_RECOGNIZER_KEY
     * output_storage_acct : Connection string to storage account where you want to store the excel output
-    * excel_output_folder : Folder to store excel files
+    * excel_output_folder : Container/Folder to store excel files. Example:
+        * forms --> Function will store the excel file in the "forms" container
+        * forms/output --> Function will store the excel file in the "forms" container and "output" folder  
+
 
 
 ## Sample Input for the function:
@@ -37,11 +44,15 @@ To deploy the function:
     "addkeyvaluepairs" : "True"
 }
 ```
+Note! 
+* tabletype : The only supported value as of now is "individual". Plan is to add support for "aggregated" table that aggregates the data from all the tables in the document assuming that all the tables are similar.
+* addkeyvaluepairs : Some times the page that contains the table might have Key Value pairs and we need to add them to the table. If that is the case set the value of addkeyvaluepairs to True, else set it to False.
 
 
 ## Note
 
 
 * If there is a page with no tables, no sheet will be created for that page
-* Removed Selected/unselected text
+* Removed check box extrcated text (":selected:", ":unselected:") from the table. Update the code to reflect different behaviour. 
 * if the cell does not have any alpha numeric text, skipped the cell. Update the code to reflect different behaviour. 
+

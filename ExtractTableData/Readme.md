@@ -1,8 +1,10 @@
-Documents can contain Table data. Example: Earning reports, Purchase order forms, Technical and Operational manuals etc. You may need to extract this table data into Excel for futher processing. 
+# Extract Table Data from Forms 
+
+Documents can contain Table data. Example: Earning reports, Purchase order forms, Technical and Operational manuals etc contain critical data in tables. You may need to extract this table data into Excel for various scenarios. 
 * Extract each table into a specific worksheet in Excel
 * Extract the data from all the similar tables and aggregate that data into single table
 
- This function extract Table data using Form Recognizer's Layout Model and generate Excel file with all the extracted tables. 
+ This function extract Table data using Form Recognizer's built in model and generate Excel file with all the extracted tables. Following is the expected behavior
 
 * Each table on a page gets extracted and stored to a sheet in the Excel document. Sheet name corresponds to page number in the document. 
 * Sometimes there are key value pairs on the page that needs to be captured in the table. If you need that feature leverage the add_key_value_pairs flag
@@ -10,13 +12,8 @@ Documents can contain Table data. Example: Earning reports, Purchase order forms
 
 
 
-# Extable table by table into Excel    
-
-
-
 # Deployment    
 
-The analyze form skill enables you to use a pretrained model or a custom model to identify and extract key value pairs, entities and tables. The skill requires the `FORMS_RECOGNIZER_ENDPOINT` and `FORMS_RECOGNIZER_KEY` property set in the appsettings to the appropriate Form Recognizer resource endpoint and key.
 
 To deploy the function:
 1. Create a Forms Recognizer resource.
@@ -44,15 +41,25 @@ To deploy the function:
     "addkeyvaluepairs" : "True"
 }
 ```
-Note! 
+Input Parameters: 
 * tabletype : The only supported value as of now is "individual". Plan is to add support for "aggregated" table that aggregates the data from all the tables in the document assuming that all the tables are similar.
 * addkeyvaluepairs : Some times the page that contains the table might have Key Value pairs and we need to add them to the table. If that is the case set the value of addkeyvaluepairs to True, else set it to False.
 
+## [Sample data](./SampleData)
+We provided two sample documents to play with. 
+* PurchaseOrderForm.pdf . This document has key value pairs for each table that makes sense to capature that as part of the table
+    *  PurchaseOrderForm-WithKeyValuePairs.xlsx --> This is the output with addkeyvaluepairs set to True
+    *  PurchaseOrderForm-WithKeyValuePairs.xlsx --> This is the output with addkeyvaluepairs set to False
+* earningreport.pdf . This document does not have key value pairs for each table that makes sense to capture.
+    * earningreport.xlsx -> This is the output with addkeyvaluepairs set to False
 
 ## Note
-
 
 * If there is a page with no tables, no sheet will be created for that page
 * Removed check box extrcated text (":selected:", ":unselected:") from the table. Update the code to reflect different behaviour. 
 * if the cell does not have any alpha numeric text, skipped the cell. Update the code to reflect different behaviour. 
 
+## How to leverage this
+* leverage this to generate Excel file with the required table data
+* Integrate this with Power Automate so that end users can use this seamlessely from O365(Email, SharePoint or Teams)
+* You can also customize this to generate aggregated table 

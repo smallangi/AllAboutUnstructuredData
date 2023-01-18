@@ -36,7 +36,7 @@ To deploy the function:
 
 ```json
 {
-     "formUrl": "https://logcomfuncfrv288f9.blob.core.usgovcloudapi.net/input/2-combined.pdf?sp=r&st=2022-10-22T20:13:16Z&se=2022-10-23T04:13:16Z&spr=https&sv=2021-06-08&sr=b&sig=fhFbkVjnETHliyz1fqoCB7SW0rhHjlE14l6Htv4jdhw%3D",
+     "formUrl": "XXXXXXXXXXXX",
     "tabletype":"individual",
     "addkeyvaluepairs" : "True"
 }

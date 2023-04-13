@@ -144,3 +144,4 @@ dmypy.json
 .vs/slnx.sqlite
 .gitignore
 .vs/slnx.sqlite
+.vs

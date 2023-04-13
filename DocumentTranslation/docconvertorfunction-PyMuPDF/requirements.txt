@@ -1,0 +1,9 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+pymupdf==1.21.0
+Pillow==9.4.0
+python-pptx==0.6.21
+azure-storage-blob==12.6.0

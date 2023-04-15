@@ -31,7 +31,7 @@ You need to deal with different file types as follows
 ## Solution Approach  
 
 We took the following approach and all the code is shared in this repository.
-![Document Translator solution approach](.\images\document-translator-workflow.jpg)
+![Document Translator solution approach](images/document-translator-workflow.jpg)
 
 Both the functions get [triggered using an event subscription from the storage container.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-grid-blob-trigger?pivots=programming-language-python)
 ## Document Convertor Function

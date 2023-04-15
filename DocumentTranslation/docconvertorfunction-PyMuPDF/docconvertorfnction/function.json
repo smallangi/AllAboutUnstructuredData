@@ -7,7 +7,7 @@
       "direction": "in",
       "path": "originaldocs/{name}",
       "source": "EventGrid",
-      "connection": "transv2sa_STORAGE"
+      "connection": "converteddocs_storage"
     }
   ]
 }

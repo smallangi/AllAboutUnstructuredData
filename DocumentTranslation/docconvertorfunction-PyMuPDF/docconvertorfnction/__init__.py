@@ -28,7 +28,7 @@ def main(myblob: func.InputStream):
     #scanned, original
     office_conversion="scanned"
 
-    scannedpdf_output_storage = os.environ["transv2sa_STORAGE"]
+    scannedpdf_output_storage = os.environ["converteddocs_storage"]
     output_container_name = os.environ["output_container_name"]
     blob_service_client = BlobServiceClient.from_connection_string(scannedpdf_output_storage)
     container_client=blob_service_client.get_container_client(output_container_name)

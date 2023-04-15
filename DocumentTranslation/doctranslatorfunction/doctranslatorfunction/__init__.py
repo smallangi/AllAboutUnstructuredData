@@ -20,7 +20,7 @@ def main(myblob: func.InputStream):
     client = DocumentTranslationClient(endpoint, AzureKeyCredential(key))
     logging.info("Begin Translation for: " + myblob.name)
 
-    poller = client.begin_translation(source_blob_url, target_blob_url,  "uk", source_language="nl",storage_type="File")
+    poller = client.begin_translation(source_blob_url, target_blob_url,  "es", source_language="nl",storage_type="File")
     logging.info(f"Created translation operation with ID: {poller.id}")
     logging.info("Waiting until translation completes...")
     result = poller.result()

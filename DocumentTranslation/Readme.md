@@ -27,55 +27,58 @@ You will need to handle different file types as follows:
         * You can also leverage Power Apps, as long as the files are stored in OneDrive.
 
 
-##########
-## Solution Approach  
 
-We took the following approach and all the code is shared in this repository.
+## Solution Approach  
+We followed the approach outlined below and have shared all the code in this repository:
 ![Document Translator solution approach](images/document-translator-workflow.jpg)
 
-Both the functions get [triggered using an event subscription from the storage container.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-grid-blob-trigger?pivots=programming-language-python)
+Both the functions are [triggered using an event subscription from the storage container.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-grid-blob-trigger?pivots=programming-language-python)
+
 ## Document Convertor Function
 
+There are multiple python packages that convert digital PDF to Scanned version of PDF. We have played with PyMuPDF and  pdf2image python packages. For each of those packages, we shared the code for Azure functions based on them. 
 
-we have two options here. One is based on PyMuPDF python package and another is based on pdf2image python package. 
-* pdf2image function requires docker as we need to install poppler utils which is not available as Python package. This function only supports converting the PDF document to scanned version
-* PyMuPDF based function has extensive functionality and configurable options.Following are the configurations
-    * "translatordocs_storage: "storage connecttion string for input and converted data",
-    * "pdf_conversion":"all OR scanned OR original or hybrid",
-        * scanned : Create scanned version of the document. Name of the scanned file will have "--scanned" appended to original file.
-        * oroginal: copy the original  the document
+* The pdf2image function requires Docker because we need to install Poppler utils, which is not available as a Python package. This function only supports converting the PDF document to a scanned version.
+* The PyMuPDF-based function has extensive functionality and configurable options. The following are the configurations available:
+    * "translatordocs_storage": storage connection string for input and converted data.
+    * "pdf_conversion": options include "all", "scanned", "original", or "hybrid".
+        * "scanned": creates a scanned version of the document. The name of the scanned file will have "--scanned" appended to the original file.
+        * "original": copies the original document.
+        * "hybrid":
+            * For pages with text-only data, create a file with the digital copy of the pages. The name of the text pages file will have "--textonlyPage" appended to the original file. Note that if the document has no pages with only text, this file will not be created.
+            * For pages with images or images and text, create a file with the scanned version of the pages. The name of the image pages file will have "--ImagePages" appended to the original file. Note that if the document has no pages with images, this file will not be created.
         * hybrid: 
             * For pages with text only data, create a file with the digital copy of the pages. Name of the text pages file will have "--textonlyPage" appended to original file. Note that if the document has no pages with only text, this file will not be created.
-            * For pages with images or images and text, create a file with the scanned versio copy of the pages. Name of the image pages file will have "--ImagePages" appended to original file. Note that if the document has no pages with images, this file will not be created.
-        * all: Create all of the above. 
-    * "pdf_page_limit":"no of pages in one file for scanned version"
-        * There is a limit of 40MB per file for Azure Document Translator. adjust this page number based on the type of PDF files you are dealing with
-    * "output_container_name":"Output Container for converted documents"
+            * For pages with images or images and text, create a file with the scanned version of the pages. The name of the image pages file will have "--ImagePages" appended to the original file. Note that if the document has no pages with images, this file will not be created.
+        * "all": creates all of the above. 
+    * "pdf_page_limit": the number of pages in one file for the scanned version.
+        * There is a limit of 40MB per file for Azure Document Translator. Adjust this page number based on the type of PDF files you are dealing with.
+    * "output_container_name": the output container for converted documents.
 
 ### Note
 * Hybrid is the best option. This is because Translator can translate digital pages better than images as it can get the proper word block and full layout information. 
-* As we are processing the original file page by page, we can create a mapping file that defines mapping of original document page to converted documen's pages(imagepages and textonlypages documents). we can use this mapping to stitch these documents and generate final translated document. We did not get to this. Hopefully we will get some time soon to take care of this. 
+* As we process the original file page by page, we can create a mapping file that defines the mapping of the original document page to the converted document's pages (image pages and text-only pages documents). We can use this mapping to stitch these documents and generate the final translated document. However, we have not yet had the opportunity to take care of this. Hopefully, we will find some time soon to complete this task. 
 
 ## Document Translator Function
 
-This is a simple function that takes a document and submits to translator service. Translator service stores the translated document to specified container. 
-Following are the configurations
+This is a simple function that takes a document and submits it to the Translator service. The Translator service stores the translated document in the specified container.
+The following are the configurations: 
 * "converteddocs_storage": "storage connecttion string for input documents",,
 * "translator_endpoint":"translator service endpoint",
 * "translator_key":"translator key",
 * "target_blob_url":"target blob url for translated output"
 
 ### Note
-* Currently we have hardcoded the target language. You can make it configurable option.
-* We are also leveraing auto language dectection by Translator service to identify source language.You get better accuracy if you can specify source language.[Refer this link] (https://learn.microsoft.com/en-us/azure/cognitive-services/translator/document-translation/faq#should-i-specify-the-source-language-in-a-request) 
-* we generate multiple files when we are dealing with large documents as mentioned above. So you need to merge them into single file. 
+* Currently, we have hardcoded the target language. You can make it a configurable option.
+* We are also leveraging the auto-language detection by the Translator service to identify the source language. You can get better accuracy if you specify the source language. [Refer this link] (https://learn.microsoft.com/en-us/azure/cognitive-services/translator/document-translation/faq#should-i-specify-the-source-language-in-a-request) 
+* We generate multiple files when we are dealing with large documents, as mentioned above. Therefore, you need to merge them into a single file. 
 
 ## Deployment    
 
-To deploy this solution :
-1. Create Azure Translation Service.
-2. Create Storage account to store original, converted and translated documents
-3. Create Azure functions based on the source code from this repository. [Refer to this article to create functions that leverage storage container's event subscription ](https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-grid-blob-trigger?pivots=programming-language-python)
+To deploy this solution, follow these steps:
+1. Create an Azure Translation Service.
+2. Create a Storage account to store the original, converted, and translated documents.
+3. Create Azure Functions based on the source code from this repository. [Refer to this article to create functions that leverage storage container's event subscription ](https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-grid-blob-trigger?pivots=programming-language-python)
 
 ## Contributors
 + Brandon Rohrer 

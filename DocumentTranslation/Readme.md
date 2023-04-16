@@ -1,33 +1,33 @@
 # Translate documents using Azure Document Translation
 
-Azure Document Translation service can be used to translate multiple and complex documents across all supported languages and dialects, while preserving original document structure and data format. Currently it does not tralate text from image, if document is digital and has text in it. There are two ways of dealing with this
-* Convert the digital document to scanned document entirely OR
-* Split the document into two files and process them seperately
-    * One file containing all pages that only has text. We preserve the digital page as is. Document Translation service takes advantage of structure/layout info form digital text page and trsnaltes this much better than scanned page.
-    * Second file will have scanned version of all the pages that contain image(s)  
-    * Note: As we have processed these files by parsing original document page by page, we have required info to stich the translated documents into single translaed document. This code base does not have that code. We will add that code in near future. If you do have cycles to help, please let us know.
+Azure Document Translation service enables the translation of multiple and complex documents across all supported languages and dialects while preserving the original document structure and data format. However, it currently does not support the translation of text from images in digital documents. To address this, there are two options:
+* Convert the digital document into a scanned document in its entirety.
+* Split the document into two files and process them separately:
+    * One file containing all pages that only have text. The digital pages are preserved in their original form. The Document Translation service takes advantage of the structure/layout information from the digital text page and translates it more accurately than a scanned page.
+    * The second file will contain a scanned version of all the pages that contain images. 
+    * Note: As we have processed these files by parsing the original document page by page, we have the required information to stitch the translated documents into a single translated document. This codebase does not have that code. We will add that code in the near future. If you have the time to help, please let us know.
 
 ## Dealing with various File Types  
-You need to deal with different file types as follows
+You will need to handle different file types as follows:
 * PDF
-    * Scanned PDF:You do not need to do anything. Translator service translates all the text
-    * Digital PDF: As mentioned above translator service does not tralate text from image, but translate rest of the text. 
-    * This solution analyzes page by page and create multiple files based on what is on the page(Text only page, text plus image page, image only page etc). You can configure the behavioir through various config parameters. Following are the files it creates
-        * Copy of the Original file as is
-        * Scanned version of the whole document
-        * Two files. One file containing all pages that only has text. Second file will have scanned version of all the pages that contain image(s).
-        * Note: Azure Document Translator has a limit of 40MB per document. Scanned version of the file is typically larger. So we split the scanned document into multiple depending on the number of pages(configurable)
+    * Scanned PDF:You do not need to do anything. Translator service translates all the text from the scanned pages.
+    * Digital PDF: As mentioned earlier, the Translator service does not translate text from images, but it can translate the remaining text.
+    * This solution analyzes each page and creates multiple files based on the content on each page (text only page, text plus image page, image only page, etc.). You can configure this behavior through various parameters. The following files will be created:
+        * A copy of the original file as is.
+        * A scanned version of the whole document.
+        * Two other files: One containing all pages that only have text, and a second file with a scanned version of all the pages that contain image(s).
+        * Note: The Azure Document Translator has a limit of 40MB per document. The scanned version of the file is typically larger. Therefore, we split the scanned document into multiple files based on the number of pages (configurable).
 * Image Files(BMP,PNG,JPG)
-    * we need to convert these files into PDF. This solution takes care of it
+    * We need to convert these files into PDF, and this solution takes care of it.
 * Office files (Word, Powerpoint, Excel)
-    * Translator deals with these files in same as PDF. In the sense it does not tralate text from image, but translates rest of the text. So we need to convert/process these files same way as PDF. One approach is to convert office files into PDF and leverage the solution we have for PDF. 
-    * There are multiple open source python packages available to convert office documents but some of them require office installed on the machine where the code runs. You can explore the following options
+    * The Translator service handles these files in the same way as PDF, meaning it does not translate text from images but translates the remaining text. Therefore, we need to convert/process these files in the same way as PDF. One approach is to convert office files into PDF and leverage the solution we have for PDF. 
+    * There are several open-source Python packages available to convert office documents, but some of them require Microsoft Office to be installed on the machine where the code runs. You can explore the following options
         * https://pypi.org/project/aspose-words/
         * https://github.com/AlJohri/docx2pdf
-        * You can also leverage Power Apps as long as you have the files stored in One Drive.
+        * You can also leverage Power Apps, as long as the files are stored in OneDrive.
 
 
-
+##########
 ## Solution Approach  
 
 We took the following approach and all the code is shared in this repository.

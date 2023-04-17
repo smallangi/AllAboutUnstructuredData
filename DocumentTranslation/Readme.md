@@ -84,5 +84,5 @@ To deploy this solution, follow these steps:
 + Brandon Rohrer 
 + Krishna Doss Mohan 
 + Narasimhan Kidambi
-+ Nicolas Uthurriague
++ [Nicolas Uthurriague](https://github.com/puthurr)
 + Sreedhar Mallangi 

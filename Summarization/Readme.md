@@ -1,12 +1,33 @@
 # Summarization 
 
 There are two types of Summarization scenarios
-1. Generic summarization. This is all about going through the entire document and giving overall summary.
-2. Insights based summary. In this case, it is about generating summary around specific insights from the document. Ex: Generating summary based on risks or issues identified in the document. 
+1. Generic summarization. This is all about going through the entire document and giving overall summary.Ex:
+    * Summarize the document
+    * Identify main theme(s)     
+2. Insights based summary. In this case, it is about generating summary around specific insights from the document. Ex: 
+    * Identify risks or concerns in the earnings transcript and summarize them
+    * Identify budget allocations and provide concise summary
+    
 
 In the first case you can leverage generic summarization template available out there and customize a bit to get what you need. For the second scenario, you would need to spend time on the prompt template to get what you need. 
 
-Genering summary for large documents can be a tricky. Folliwng are the approaches one can take to generate summary. First three are well documented here https://python.langchain.com/docs/use_cases/summarization . There are many articles that talk pro/cons of these 3 approaches. Followinag are some of the main points based on my research and expriences 
+## Summarization scenario examples
+Here are some of the summarization scenarios where LLMs can be applied
+*   News Articles: Summarizing news articles to provide quick, digestible overviews of current events
+* Academic Papers: Condensing research papers or academic articles to highlight the main findings, methodology, and conclusions.
+* Business Reports: Summarizing lengthy business reports, financial analyses, or market research for efficient decision-making.
+* Legal Documents: Condensing legal briefs, case law, or legislation to highlight the key points and implications.
+* Reviews: Aggregating and summarizing multiple enity(product/rule etc) reviews to capture overall sentiment and key opinions.
+* Technical Manuals: Summarizing complex technical manuals into user-friendly guides or quick reference materials.
+ ....etc etc etc 
+
+
+ ## Solution Approaches
+
+
+Genering summary for large documents can be a tricky. Folliwng are the approaches one can take to generate summary. First three are well documented here https://python.langchain.com/docs/use_cases/summarization . There are many articles that talk pro/cons of these 3 approaches. 
+
+Followinag are some of the main points based on my research and expriences 
 
 1. Stuff 
     * This is the best option, if the text is with in token limit of the LLM model.
@@ -14,7 +35,7 @@ Genering summary for large documents can be a tricky. Folliwng are the approache
 2. Map Reduce
     * When Stuff approach is not feasible, this seems to be a popular option. This is because it is faster than Refine. With Map Reduce approach you are processing document chunks in parallel as opposed to sequential in Refine approach. 
     * Note that some information may be lost during final call(merging all generated summaries into final one). You have two prompt templates. One for the individual chunks and one for final merge. Pay attention to the merge(reduce) prompt template.
-    * Chunkin strategy also makes strong impact here. Chunking based on specif token count may lose important context. Best is to chunk at section level. Leverage Azure Document Intelligence's layout model for this. 
+    * Chunkin strategy also makes strong impact here. Chunking based on specific token count may lose important context. Best is to chunk at section level. Leverage Azure Document Intelligence's layout model for this. 
 3. Map Rerank
     * This is similar to Map Reduce from "Map" approach perpsective but vary afterwards. 
     * Document is chunked and summary is generated for each chunk along with a confidence score. In second step you will use the confidence scores to prioritize the summaries and generate final summary.

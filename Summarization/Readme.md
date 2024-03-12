@@ -25,7 +25,7 @@ Here are some of the summarization scenarios where LLMs can be applied
  ## Solution Approaches
 
 
-Genering summary for large documents can be a tricky. Folliwng are the approaches one can take to generate summary. First three are well documented here https://python.langchain.com/docs/use_cases/summarization . There are many articles that talk pro/cons of these 3 approaches. 
+Genering summary for large documents can be a tricky. Following are the approaches one can take to generate summary. First three are well documented here https://python.langchain.com/docs/use_cases/summarization . There are many articles that discuss pro/cons of these 3 approaches. 
 
 Followinag are some of the main points based on my research and expriences 
 

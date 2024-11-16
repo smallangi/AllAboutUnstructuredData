@@ -2,9 +2,9 @@
 
 Goal of this repository is to share tools, solutions, tips/findings related to Unstructured Data.
 ### Other Repos
-Following are other solutions I worked one
-https://github.com/usri/Comprehensive-Document-Translator
-https://github.com/usri/azuregov-search-knowledge-mining
+Following are other solutions I worked on
+- https://github.com/usri/Comprehensive-Document-Translator
+- https://github.com/usri/azuregov-search-knowledge-mining
 
 ### Upcoming additions
 - Document Insights : Extracting insights from one or more documents/images
@@ -12,6 +12,6 @@ https://github.com/usri/azuregov-search-knowledge-mining
   - Give me the details of products from category "Home"
   - Give me the total price of products from category "Home" 
   - Summarize the products from category "Home"
-  - Compare the products Produc1 and Product 2
+  - Compare the products Produc1 and Product 2 
 
 

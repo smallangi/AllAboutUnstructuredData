@@ -1,0 +1,58 @@
+{
+    "submitter_info": "Financial Data Exchange, LLC (FDX)",
+    "summary": "FDX provides feedback on the CFPB's Notice of Proposed Rulemaking for Personal Financial Data Rights, emphasizing the importance of clear, interoperable standards and seeking recognition as a Qualified Industry Standards Setting Body (QSSB). FDX highlights its role in developing the FDX API, which facilitates secure, user-permissioned financial data sharing, and outlines its commitment to fair, open, and inclusive governance.",
+    "main_themes": [
+        {
+            "theme": "Recognition as QSSB",
+            "summary": "FDX seeks recognition as a Qualified Industry Standards Setting Body (QSSB) to unify the financial services industry around common, interoperable standards for user-permissioned data sharing."
+        },
+        {
+            "theme": "FDX API and Standards",
+            "summary": "FDX emphasizes the success and continuous improvement of the FDX API, which has transitioned from credential-based 'screen scraping' to secure token-based access, with over 65 million consumer accounts using the API."
+        },
+        {
+            "theme": "Collaboration with CFPB",
+            "summary": "FDX appreciates the CFPB's efforts and ongoing dialogue with industry stakeholders, seeking further clarifications and expressing a commitment to align with the CFPB's principles of fair, open, and inclusive governance."
+        },
+        {
+            "theme": "Standard Setting Body Characteristics",
+            "summary": "FDX outlines the attributes of a standard setting body as recognized by the CFPB, including openness, balance, due process, appeals process, consensus, and transparency, and commits to embodying these attributes."
+        },
+        {
+            "theme": "Future Capabilities and Certification",
+            "summary": "FDX discusses its current and future capabilities, including the implementation of a technical certification program to ensure compliance with standardized data formatting and the potential use of a registry for data connections."
+        }
+    ],
+    "overall_sentiment": {
+        "sentiment": "Positive",
+        "score": 0.8
+    },
+    "aspect_based_sentiment": [
+        {
+            "aspect": "Recognition as QSSB",
+            "sentiment": "Positive",
+            "score": 0.8
+        },
+        {
+            "aspect": "FDX API and Standards",
+            "sentiment": "Positive",
+            "score": 0.9
+        },
+        {
+            "aspect": "Collaboration with CFPB",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Standard Setting Body Characteristics",
+            "sentiment": "Positive",
+            "score": 0.8
+        },
+        {
+            "aspect": "Future Capabilities and Certification",
+            "sentiment": "Positive",
+            "score": 0.7
+        }
+    ],
+    "suggestions": "FDX suggests that the CFPB clarify the process and procedures for recognizing QSSBs and the standards they issue, and emphasizes the importance of timely recognition to ensure compliance with the Proposed Rules. FDX also requests further clarification on the definition of 'Terms and Conditions' for standardized data formatting."
+}

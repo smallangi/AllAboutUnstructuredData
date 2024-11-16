@@ -1,0 +1,26 @@
+Top 25 Most Occurring Themes:
+- Prohibition on Fees: [4] ABA and JPMC argue against the prohibition on fees for data providers, stating it is not supported by law and ignores the real costs of building and maintaining interfaces.
+- Liability: [3] ABA and JPMC express concerns about liability in the NPRM, suggesting that liability should flow with the data and be fairly apportioned within the financial data sharing ecosystem.
+- Screen Scraping: [3] ABA, ICBA, and JPMC support the prohibition of screen scraping and credential-based access, recommending explicit provisions to prohibit unauthorized data access.
+- Consumer Authorization: [3] ABA and JPMC emphasize the importance of data providers obtaining their own consumer authorizations before sharing data with third parties to ensure informed consent and protect against allegations of improper data sharing.
+- Compliance Timelines: [3] ABA, JPMC, and Plaid argue that the proposed compliance timelines are insufficient and suggest extending the first compliance date to 24 months after the final rule's publication.
+- Data Security Standards: [2] ABA and JPMC stress that all entities in the data sharing ecosystem should meet minimum data security standards to ensure a high level of consumer data protection.
+- Standardized Data Formats: [2] ABA and ICBA support the adoption of standardized data formats throughout the ecosystem to promote competition and reduce switching costs for third parties.
+- Risk Management: [2] ABA and JPMC highlight the importance of allowing data providers to conduct comprehensive risk management programs and not be constrained by narrow definitions of risk management concerns.
+- Consumer Data Protection: [2] ABA and Plaid emphasize that existing regulations already provide sufficient protection for consumer data, and the proposed rules do not offer additional benefits.
+- Data Aggregators: [2] ABA and JPMC underscore the critical role of data aggregators in the data sharing ecosystem and call for clear regulatory obligations and oversight for these entities.
+- Consumer Data Access and Security: [1] The ABA supports secure and transparent consumer access to financial information but emphasizes that all participants in the data sharing ecosystem should adhere to high standards similar to banks.
+- Data Fields and Legal Authority: [1] The ABA contends that certain data fields in the NPRM exceed the statutory authority, such as 'authorized but not yet settled' transactions and 'upcoming bill information.'
+- Role of Data Providers and Aggregators: [1] The ABA urges the CFPB to clarify that data providers are not responsible for ensuring third parties' compliance and to prohibit screen scraping.
+- Risk Management and Fraud Prevention: [1] The ABA stresses the importance of risk management and fraud prevention, advocating for flexibility for data providers to manage risks and prevent fraud.
+- Accreditation and Compliance: [1] The ABA suggests creating a non-binding accreditation body for nonbanks to meet minimum standards, which could expedite the due diligence process for data providers.
+- Strict Construction of Section 1033: [1] ABA argues that the CFPB should limit the rule to facilitating access to consumer information and not extend it to enable transactions.
+- Competitive Impacts on Small Banks: [1] ABA highlights the potential negative impacts on small banks and urges the CFPB to consider the collective impact of multiple regulations and allow cost recoupment.
+- Standards and Certification: [1] ABA calls for clear standards and certification processes for qualified industry standards (QIS) to ensure practical operationalization and compliance.
+- Simultaneous Rulemaking Activities: [1] ABA cautions against conducting simultaneous rulemaking activities on foundational matters, which could lead to unintended consequences.
+- Data Provider Obligations and Compliance Timeframes: [1] ABA requests clarity on data provider obligations, compliance timeframes, and the need for reasonable deadlines to ensure successful implementation.
+- Exemptions for 'Natural' Third Parties: [1] ABA recommends that 'natural' third parties, such as agents and attorneys, should be exempt from the developer interface requirements under Section 1033.
+- Electronic and Wet Signatures: [1] ABA suggests that the final rule should align with ESIGN and remove the option for wet signatures to ensure consistency with electronic data access.
+- Secondary Language Section Clarity: [1] ABA members seek additional clarity on how UDAAP will apply to the provision of financial products and services, particularly regarding the secondary language section in authorization disclosures.
+- Data Deletion Requirements: [1] ABA believes that third parties should have explicit requirements to delete data once authorization lapses or is revoked, and consumers should be able to close accounts and have data deleted upon request.
+- Retention Obligations: [1] ABA finds the retention provisions in the NPRM to be overly formalized and onerous, suggesting a reduction in the retention period to no more than 24 months and clearer guidelines on what information needs to be retained.

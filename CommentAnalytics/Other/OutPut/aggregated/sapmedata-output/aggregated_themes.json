@@ -1,0 +1,864 @@
+{
+    "main_themes": [
+        {
+            "theme": "Complexity and Comment Period",
+            "summary": "The ABA criticizes the short comment period, which did not allow adequate time for stakeholders to assess the new regulatory framework. They suggest extending the deadline for comments."
+        },
+        {
+            "theme": "Consumer Data Access and Security",
+            "summary": "The ABA supports secure and transparent consumer access to financial information but emphasizes that all participants in the data sharing ecosystem should adhere to high standards similar to banks."
+        },
+        {
+            "theme": "Prohibition on Fees",
+            "summary": "The ABA argues against the prohibition on data providers assessing fees, stating it is not supported by law and should be reconsidered."
+        },
+        {
+            "theme": "Data Fields and Legal Authority",
+            "summary": "The ABA contends that certain data fields in the NPRM exceed the statutory authority, such as 'authorized but not yet settled' transactions and 'upcoming bill information.'"
+        },
+        {
+            "theme": "Role of Data Providers and Aggregators",
+            "summary": "The ABA urges the CFPB to clarify that data providers are not responsible for ensuring third parties' compliance and to prohibit screen scraping. They also call for a supervisory program for data aggregators."
+        },
+        {
+            "theme": "Risk Management and Fraud Prevention",
+            "summary": "The ABA stresses the importance of risk management and fraud prevention, advocating for flexibility for data providers to manage risks and prevent fraud."
+        },
+        {
+            "theme": "Accreditation and Compliance",
+            "summary": "The ABA suggests creating a non-binding accreditation body for nonbanks to meet minimum standards, which could expedite the due diligence process for data providers."
+        },
+        {
+            "theme": "Strict Construction of Section 1033",
+            "summary": "ABA argues that the CFPB should limit the rule to facilitating access to consumer information and not extend it to enable transactions, citing legal and policy reasons."
+        },
+        {
+            "theme": "Liability Concerns",
+            "summary": "ABA expresses concerns about the insufficient addressing of liability in the NPRM, particularly regarding payment initiation, and suggests that liability should flow with the data."
+        },
+        {
+            "theme": "Prohibition on Fees",
+            "summary": "ABA opposes the prohibition on fees for data providers, arguing that it ignores the real costs of building and maintaining interfaces and represents a forced transfer of value."
+        },
+        {
+            "theme": "Competitive Impacts on Small Banks",
+            "summary": "ABA highlights the potential negative impacts on small banks and urges the CFPB to consider the collective impact of multiple regulations and allow cost recoupment."
+        },
+        {
+            "theme": "Standards and Certification",
+            "summary": "ABA calls for clear standards and certification processes for qualified industry standards (QIS) to ensure practical operationalization and compliance."
+        },
+        {
+            "theme": "Simultaneous Rulemaking Activities",
+            "summary": "ABA cautions against conducting simultaneous rulemaking activities on foundational matters, which could lead to unintended consequences."
+        },
+        {
+            "theme": "Data Provider Obligations and Compliance Timeframes",
+            "summary": "ABA requests clarity on data provider obligations, compliance timeframes, and the need for reasonable deadlines to ensure successful implementation."
+        },
+        {
+            "theme": "Exemptions for 'Natural' Third Parties",
+            "summary": "ABA recommends that 'natural' third parties, such as agents and attorneys, should be exempt from the developer interface requirements under Section 1033."
+        },
+        {
+            "theme": "Electronic and Wet Signatures",
+            "summary": "ABA suggests that the final rule should align with ESIGN and remove the option for wet signatures to ensure consistency with electronic data access."
+        },
+        {
+            "theme": "Secondary Language Section Clarity",
+            "summary": "ABA members seek additional clarity on how UDAAP will apply to the provision of financial products and services, particularly regarding the secondary language section in authorization disclosures."
+        },
+        {
+            "theme": "Data Deletion Requirements",
+            "summary": "ABA believes that third parties should have explicit requirements to delete data once authorization lapses or is revoked, and consumers should be able to close accounts and have data deleted upon request."
+        },
+        {
+            "theme": "Retention Obligations",
+            "summary": "ABA finds the retention provisions in the NPRM to be overly formalized and onerous, suggesting a reduction in the retention period to no more than 24 months and clearer guidelines on what information needs to be retained."
+        },
+        {
+            "theme": "Definitions and Machine-Readable Data",
+            "summary": "ABA recommends revisiting the definitions section to make them less circular and adding a definition for 'machine-readable' to limit the scope of data fields subject to format requests."
+        },
+        {
+            "theme": "Request Rights and Account Status",
+            "summary": "ABA suggests that the right to make requests under Section 1033 should apply only to active accounts and that only accountholders or their representatives should be permitted to authorize requests."
+        },
+        {
+            "theme": "Support for Small Entities",
+            "summary": "ABA urges the CFPB to provide model forms, compliance guidance, and other materials to help small entities understand Section 1033 concepts and obligations."
+        },
+        {
+            "theme": "Scope and Definitions",
+            "summary": "AFC recommends broadening the scope of the Proposed Rulemaking to include additional consumer data such as EBT, securities, and payroll data. They also suggest clarifying the definition of 'Data Provider' to avoid confusion and overlap with 'third party' definitions."
+        },
+        {
+            "theme": "Responsible Secondary Use of Data",
+            "summary": "AFC argues that the Proposed Rulemaking's limitations on the use of consumer data for legitimate business purposes could stymie innovation and competition. They recommend allowing for responsible secondary use of data and providing consumers with opt-in choices for targeted advertising and cross-selling."
+        },
+        {
+            "theme": "Standard Setting Bodies",
+            "summary": "AFC supports the establishment of standard setting bodies but emphasizes the need for additional opportunities for small and innovative entities to engage effectively. They recommend leveraging the CFPB's Office of Competition and Innovation to ensure an equitable open banking ecosystem."
+        },
+        {
+            "theme": "Reauthorization Requirements",
+            "summary": "AFC suggests that the 12-month mandatory reauthorization window should include any instance of data refresh as a new authorization. They also recommend exemptions for services that solely benefit consumers to avoid unnecessary frictions."
+        },
+        {
+            "theme": "Consumer Protections",
+            "summary": "The proposed rule's consumer protection requirements should apply to all third parties and data aggregators, not just authorized ones, and cover all data, not just 'covered data'."
+        },
+        {
+            "theme": "Credential-Based Access and Screen Scraping",
+            "summary": "Credential-based access and screen scraping should be explicitly prohibited for all data made available via a developer interface, applying to all third parties and data aggregators."
+        },
+        {
+            "theme": "Clear Regulatory Requirements",
+            "summary": "The CFPB should impose direct requirements on all third parties and data aggregators, rather than relying on private actors to enforce these rules."
+        },
+        {
+            "theme": "Data Provider Authorization",
+            "summary": "Data providers should have the right to obtain their own consumer authorizations before sharing data with third parties or data aggregators."
+        },
+        {
+            "theme": "Liability",
+            "summary": "Liability should be fairly apportioned within the financial data sharing ecosystem, and data providers should have the right to deny data access requests based on risk management concerns."
+        },
+        {
+            "theme": "Data Provider Compensation",
+            "summary": "Data providers should be allowed to receive compensation from third parties to recover costs and a margin for enabling data sharing."
+        },
+        {
+            "theme": "Categories of Covered Data",
+            "summary": "Payment initiation information should not be a category of covered data due to fraud risks, and 'terms and conditions' should be revised to 'account pricing information'."
+        },
+        {
+            "theme": "Standard Setting Bodies and Data Formats",
+            "summary": "A standard setting body should develop a standardized format for data sharing, and the final rule should extend data format expectations to data aggregators."
+        },
+        {
+            "theme": "Compliance Dates",
+            "summary": "The proposed compliance dates are overly aggressive and vague, even for sophisticated banks."
+        },
+        {
+            "theme": "Consumer Authorization",
+            "summary": "Data providers should have the right to obtain their own consumer authorizations before sharing data with third parties to ensure informed consent and protect against allegations of improper data sharing."
+        },
+        {
+            "theme": "Liability Framework",
+            "summary": "The CFPB should clarify liability rules to ensure that data providers are not held responsible for unauthorized transactions once data leaves their control. Each entity should be liable for losses resulting from breaches of their systems."
+        },
+        {
+            "theme": "Data Security Standards",
+            "summary": "All entities in the data sharing ecosystem should meet minimum data security standards, ideally those articulated in the FFIEC information security handbook, to ensure a high level of consumer data protection."
+        },
+        {
+            "theme": "Compensation for Data Providers",
+            "summary": "The prohibition on data providers receiving compensation from third parties should be removed. Data providers should be allowed to recover costs and a margin for their services."
+        },
+        {
+            "theme": "Standardized Data Formats",
+            "summary": "The CFPB should ensure that standardized data formats are adopted throughout the ecosystem to promote competition and reduce switching costs for third parties."
+        },
+        {
+            "theme": "Compliance Timelines",
+            "summary": "The proposed compliance timelines are insufficient. The first compliance date should be extended to 24 months after the final rule's publication, with subsequent dates extended by 18 months."
+        },
+        {
+            "theme": "Definition of Data Providers",
+            "summary": "The Clearing House Association requests clarification on which entities are considered data providers, particularly regarding third parties that facilitate payments and data aggregators."
+        },
+        {
+            "theme": "Limitations on Data Sharing",
+            "summary": "They argue that entities should only share data they have generated or created directly and not data obtained from other providers. This is to ensure consumer data protection and prevent unauthorized data sharing."
+        },
+        {
+            "theme": "Compliance Dates for Third Parties",
+            "summary": "The feedback highlights the need for explicit compliance dates for third parties seeking access to covered data, suggesting that third parties should comply with the rule upon its effective date."
+        },
+        {
+            "theme": "Authorized Third Parties",
+            "summary": "The Clearing House Association recommends that third parties be required to become authorized third parties and meet all relevant obligations by the effective date of the final rule."
+        },
+        {
+            "theme": "Definition of Consumer",
+            "summary": "They support the definition of 'consumer' as a natural person but suggest clarifications regarding trust accounts and the potential inclusion of agents acting on behalf of consumers."
+        },
+        {
+            "theme": "Categories of Covered Data",
+            "summary": "The feedback supports the high-level approach to defining covered data but requests clarifications on specific data elements and the historical limit of transaction information."
+        },
+        {
+            "theme": "Consumer Protection and Payment System Risks",
+            "summary": "The feedback argues that the proposed rule fails to adequately address consumer protection implications and payment system risks, suggesting that the provision should be withdrawn."
+        },
+        {
+            "theme": "Regulation E Obligations",
+            "summary": "The feedback emphasizes the need for data aggregators and third parties to have obligations under Regulation E to protect consumers and ensure proper handling of transaction errors."
+        },
+        {
+            "theme": "Liability and Indemnification",
+            "summary": "The feedback calls for clear liability and indemnification rules to protect financial institutions from additional risks and costs associated with third-party payment initiation."
+        },
+        {
+            "theme": "Tokenized Account Numbers",
+            "summary": "The feedback supports the use of tokenized account numbers to mitigate fraud risks and enhance security for consumers and data providers."
+        },
+        {
+            "theme": "Industry-led Standards",
+            "summary": "The feedback advocates for the use of industry-led standards for data sharing, highlighting the role of standard-setting bodies like FDX in promoting competition and innovation."
+        },
+        {
+            "theme": "Attributes of SSBs",
+            "summary": "The feedback supports the attributes of a fair, open, and inclusive standard-setting body (SSB) but calls for clarification on confidentiality and the practical challenges of achieving balanced decision-making."
+        },
+        {
+            "theme": "Regulatory Safe Harbor",
+            "summary": "The feedback supports the regulatory safe harbor for data providers making data available in standardized formats but suggests that additional obligations should be placed on data aggregators to ensure standardized data availability."
+        },
+        {
+            "theme": "Screen Scraping",
+            "summary": "The feedback strongly supports the cessation of screen scraping and credential-based access, recommending explicit provisions to prohibit unauthorized data access."
+        },
+        {
+            "theme": "Compensation for Data Providers",
+            "summary": "The feedback argues against the prohibition on compensation for data providers, suggesting that they should be allowed to recover costs and a margin for establishing and maintaining developer interfaces."
+        },
+        {
+            "theme": "Standardized Format Requirement",
+            "summary": "The feedback supports the requirement for developer interfaces to make covered data available in a standardized format and the safe harbor provisions for compliance."
+        },
+        {
+            "theme": "Quantitative Performance Specifications",
+            "summary": "The feedback raises concerns about the 99.5% successful return rate, suggesting it is unreasonably high and incomplete. It recommends adopting a 'commercially reasonable' standard instead."
+        },
+        {
+            "theme": "Use of QIS for Performance Specifications",
+            "summary": "The feedback opposes the use of QIS for performance specifications, suggesting that references to QIS should be removed from certain provisions and that the 'commercially reasonable' standard is sufficient."
+        },
+        {
+            "theme": "Prohibition on Screen Scraping",
+            "summary": "The feedback recommends prohibiting the use of screen scraping for all consumer data made available by a data provider's developer interface and imposing a prohibition on third parties from collecting consumer credentials."
+        },
+        {
+            "theme": "Risk Management Concerns",
+            "summary": "The feedback appreciates the recognition of data providers' rights to deny access due to risk management concerns but argues that the proposal's definition of 'reasonable basis' for denial is too narrow. It suggests that data providers should be able to deny access based on broader risk management considerations, not just specific identifiable risks."
+        },
+        {
+            "theme": "Due Diligence Period",
+            "summary": "The feedback recommends that the rule should explicitly provide data providers with a reasonable period to conduct due diligence on third parties or data aggregators before granting access."
+        },
+        {
+            "theme": "Liability Framework",
+            "summary": "The feedback emphasizes the need for a comprehensive liability framework to ensure that parties responsible for harm are held liable and to incentivize robust security and risk management practices by third parties and data aggregators."
+        },
+        {
+            "theme": "Consumer Authentication",
+            "summary": "The feedback supports the requirement for proper consumer authentication and suggests that the rule should distinguish between initial and subsequent data requests, allowing for more streamlined processes for subsequent requests."
+        },
+        {
+            "theme": "Distinction between Identity Authentication and Data Sharing Authorization",
+            "summary": "The feedback stresses the importance of recognizing that consumers give separate authorizations to data providers and third parties, and these authorizations should be treated as distinct 'mini contracts.'"
+        },
+        {
+            "theme": "Consumer Authorization for Data Providers",
+            "summary": "It argues that data providers should be permitted to receive their own consumer authorization for new data sharing requests, changes to existing authorizations, and in response to risk management concerns."
+        },
+        {
+            "theme": "Liability and Protection for Data Providers",
+            "summary": "The feedback expresses concern about data providers' liability in case of data breaches or fraudulent activities and suggests that the rule should absolve data providers from liability if they comply with third-party requests."
+        },
+        {
+            "theme": "Revocation Methods",
+            "summary": "The feedback supports allowing consumers to manage their data sharing permissions through data providers and criticizes the 'all or nothing' revocation method, advocating for more granular control."
+        },
+        {
+            "theme": "Documentation and Reporting Requirements",
+            "summary": "It highlights the burdensome nature of maintaining up-to-date developer interface documentation and suggests more practical alternatives, such as quarterly reporting and allowing industry bodies to publish performance statistics."
+        },
+        {
+            "theme": "Compliance Burden",
+            "summary": "The proposed requirements for data providers to maintain detailed records and databases are seen as excessively burdensome and costly, with no clear benefit to consumers."
+        },
+        {
+            "theme": "Existing Regulatory Obligations",
+            "summary": "Data providers already have extensive obligations under current regulations, and the proposed rules are viewed as redundant and unnecessary."
+        },
+        {
+            "theme": "Consumer Data Protection",
+            "summary": "The feedback emphasizes that existing regulations already provide sufficient protection for consumer data, and the proposed rules do not offer additional benefits."
+        },
+        {
+            "theme": "Authorization Procedures",
+            "summary": "The proposed authorization procedures for third parties are supported, but the feedback suggests additional clarifications and limitations to ensure consumer protection and control over data sharing."
+        },
+        {
+            "theme": "Secondary Data Sharing",
+            "summary": "The feedback argues for more stringent limitations on when third parties can share consumer data with other third parties, suggesting that such sharing should be limited to necessary instances and properly disclosed to consumers."
+        },
+        {
+            "theme": "Data Security and Supervision",
+            "summary": "The feedback emphasizes the need for robust data security requirements and direct CFPB supervision of third parties and data aggregators to ensure consumer data protection."
+        },
+        {
+            "theme": "Transparency and Consumer Control",
+            "summary": "The feedback calls for greater transparency and control for consumers over their data, including the ability to know and authorize with whom their data is shared."
+        },
+        {
+            "theme": "Standardization and Data Aggregators",
+            "summary": "The feedback suggests that data aggregators should be required to provide data in a standardized format and be subject to explicit requirements and direct supervision by the CFPB."
+        },
+        {
+            "theme": "Support for Personal Financial Data Rights",
+            "summary": "FDATA North America supports the CFPB's NPRM, emphasizing the benefits of a legally binding consumer financial data right, which would enhance competition, innovation, and consumer protection in the financial services marketplace."
+        },
+        {
+            "theme": "Need for Standardization",
+            "summary": "The feedback highlights the need for a standardized framework to ensure consistent and clear requirements for data access, which would prevent disparate approaches by financial institutions and improve consumer outcomes."
+        },
+        {
+            "theme": "Inclusion of Additional Accounts",
+            "summary": "FDATA North America urges the CFPB to include a broader range of accounts, such as public benefits, small business, investment, retirement, mortgages, and auto loans, under the rule to ensure comprehensive consumer data rights."
+        },
+        {
+            "theme": "Amendments to the Proposed Rule",
+            "summary": "The feedback provides several suggested amendments, including clarifications on data usage, reauthorization processes, data retention, and the role of intermediaries, to enhance the effectiveness and fairness of the final rule."
+        },
+        {
+            "theme": "Scope of Accounts Covered",
+            "summary": "FDATA North America urges the CFPB to include a broader range of accounts, such as EBT data, auto loans, mortgage loans, student loans, and investment accounts, to ensure all consumers receive the same data rights and protections."
+        },
+        {
+            "theme": "Secondary Data Use Restrictions",
+            "summary": "FDATA North America is concerned that the proposed limitations on secondary data use would harm consumers and the economy. They recommend exempting de-identified data from these restrictions and allowing compatible secondary uses by default."
+        },
+        {
+            "theme": "Technological and Competitive Implications",
+            "summary": "FDATA North America highlights the need for reliable and efficient data provider interfaces, the prohibition of fees for data access, and the importance of fallback methods for data access when developer interfaces are unavailable or unreliable."
+        },
+        {
+            "theme": "Supervision of Data Access Platforms",
+            "summary": "FDATA North America encourages the CFPB to directly supervise consumer-permissioned data access platforms to ensure consistent application of data privacy, security, and risk management requirements."
+        },
+        {
+            "theme": "Scope of Covered Accounts",
+            "summary": "FDATA North America suggests expanding the scope of covered accounts to include public benefits, investment, retirement, non-transaction accounts, mortgages, auto loans, and time deposit accounts."
+        },
+        {
+            "theme": "Secondary Data Usage",
+            "summary": "The organization recommends adjusting limitations on secondary data usage to exclude de-identified data and ensure beneficial use cases are not hindered."
+        },
+        {
+            "theme": "Collaboration with Regulatory Bodies",
+            "summary": "FDATA North America urges the CFPB to work closely with the FDIC, OCC, and Federal Reserve to amend TPRM requirements to align with the Section 1033 rulemaking."
+        },
+        {
+            "theme": "Developer Interfaces Standards",
+            "summary": "They propose amending the minimum quantitative standards for developer interfaces to ensure consistent access to accurate data for authorized third parties."
+        },
+        {
+            "theme": "Prohibition on Fees",
+            "summary": "The feedback suggests extending the prohibition on fees for building or maintaining developer interfaces to any incumbent-owned utility used by data providers."
+        },
+        {
+            "theme": "Authorization Processes",
+            "summary": "FDATA North America emphasizes that authorization confirmation processes should not introduce undue friction into the consumer's onboarding experience."
+        },
+        {
+            "theme": "Transition to TANs",
+            "summary": "They recommend eliminating the proposal to facilitate a transition to TANs."
+        },
+        {
+            "theme": "Legacy Technologies",
+            "summary": "The organization suggests allowing the use of legacy technologies to access data with consumer permission when developer interfaces are not feasible."
+        },
+        {
+            "theme": "FCRA Requirements",
+            "summary": "FDATA North America advises excluding consumer-permissioned data access platforms from being required to assert themselves as credit reporting agencies under FCRA."
+        },
+        {
+            "theme": "Direct Supervision",
+            "summary": "They propose a separate rulemaking for direct supervision of consumer-permissioned data access platforms."
+        },
+        {
+            "theme": "Recognition as QSSB",
+            "summary": "FDX seeks recognition as a Qualified Industry Standards Setting Body (QSSB) to unify the financial services industry around common, interoperable standards for user-permissioned data sharing."
+        },
+        {
+            "theme": "FDX API and Standards",
+            "summary": "FDX emphasizes the success and continuous improvement of the FDX API, which has transitioned from credential-based 'screen scraping' to secure token-based access, with over 65 million consumer accounts using the API."
+        },
+        {
+            "theme": "Collaboration with CFPB",
+            "summary": "FDX appreciates the CFPB's efforts and ongoing dialogue with industry stakeholders, seeking further clarifications and expressing a commitment to align with the CFPB's principles of fair, open, and inclusive governance."
+        },
+        {
+            "theme": "Standard Setting Body Characteristics",
+            "summary": "FDX outlines the attributes of a standard setting body as recognized by the CFPB, including openness, balance, due process, appeals process, consensus, and transparency, and commits to embodying these attributes."
+        },
+        {
+            "theme": "Future Capabilities and Certification",
+            "summary": "FDX discusses its current and future capabilities, including the implementation of a technical certification program to ensure compliance with standardized data formatting and the potential use of a registry for data connections."
+        },
+        {
+            "theme": "Consumer Empowerment and Innovation",
+            "summary": "FTA believes that robust personal financial data rights can empower consumers, drive financial health, and enhance competition. They highlight the role of fintech in providing tailored financial products and services, improving transparency, and increasing financial inclusion."
+        },
+        {
+            "theme": "Anti-Competitive Behavior",
+            "summary": "FTA urges the CFPB to prevent traditional financial institutions from restricting consumer data access, which can hinder competition. They recommend monitoring and preventing industry attempts to block data sharing and promote anti-competitive objectives."
+        },
+        {
+            "theme": "Leveraging Existing Frameworks",
+            "summary": "FTA supports the reliance on existing legal and regulatory frameworks to avoid creating new, untested requirements. They emphasize the importance of standards setting organizations (SSOs) and call for more clarity and time for their proper development."
+        },
+        {
+            "theme": "Broader Use of Data",
+            "summary": "FTA advocates for the broader use of consumer data, including secondary use and de-identified data, with appropriate disclosures and safeguards. They argue that overly restrictive regulations on data use can hinder innovation and competition."
+        },
+        {
+            "theme": "Secondary Use of Financial Data",
+            "summary": "FTA argues that the prohibition on secondary use of financial data is too broad and suggests that tailored safeguards, such as clear disclosures and informed consent, would better serve regulatory objectives and consumer interests."
+        },
+        {
+            "theme": "De-identified Data",
+            "summary": "FTA emphasizes the importance of allowing the use of de-identified data for research and development, arguing that a blanket prohibition would harm industry innovation and U.S. competitiveness."
+        },
+        {
+            "theme": "Standards Setting Organization (SSO)",
+            "summary": "FTA supports the creation of an SSO to issue qualified industry standards and calls for greater clarity regarding its composition, operations, and role. They also recommend a phased approach to SSO recognition and appropriate timeframes for its development."
+        },
+        {
+            "theme": "Implementation Timeframes",
+            "summary": "FTA urges the Bureau to ensure realistic implementation timeframes to avoid confusion, security risks, and service interruptions. They suggest adding an additional 6 months to the proposed timeframes and linking them to the formal recognition of an SSO."
+        },
+        {
+            "theme": "Digital Wallet Providers",
+            "summary": "FTA calls for greater clarity regarding the definition and responsibilities of digital wallet providers, arguing that their inclusion in the Proposal may create confusion and data integrity challenges."
+        },
+        {
+            "theme": "Additional Amendments and Clarifications",
+            "summary": "FTA suggests several additional amendments and clarifications, including the interplay of Section 1033 with FCRA rulemaking, avoiding overly prescriptive disclosure requirements, and establishing clear standards around the use of Tokenized Account Numbers (TANs)."
+        },
+        {
+            "theme": "Technological and Financial Burdens",
+            "summary": "The proposed rule imposes significant technological and financial burdens on community banks, requiring them to establish and maintain developer portals without a mechanism to recoup costs from third-party companies."
+        },
+        {
+            "theme": "Consumer Privacy Risks",
+            "summary": "There are concerns about consumer privacy risks due to the difficulty in ensuring that data recipients have sufficient safeguards to protect sensitive financial data."
+        },
+        {
+            "theme": "Exemptions and Fee Structures",
+            "summary": "ICBA suggests exempting small depository institutions from creating developer interfaces, allowing banks to charge reasonable fees for developer interface access, and providing a 'whitelist' of supervised third parties."
+        },
+        {
+            "theme": "Data Retention and Compliance Timeframes",
+            "summary": "ICBA recommends reducing the required transaction data retention period to 6 months and extending the compliance timeframe for community banks."
+        },
+        {
+            "theme": "Standardized Format and Performance Criteria",
+            "summary": "ICBA supports standardized formats for data sharing but finds the proposed performance criteria, such as the 3.5-second response time, to be overly rigid and costly."
+        },
+        {
+            "theme": "Screen Scraping and Security",
+            "summary": "ICBA urges the CFPB to allow screen scraping as an alternative to developer interfaces and supports the proposed security program requirements."
+        },
+        {
+            "theme": "Third-Party Data Security and Liability",
+            "summary": "ICBA is concerned about the difficulty for data providers to vet third-party data recipients and the potential financial liability banks may face due to third-party breaches. They suggest that financial liability should lie with the party where the breach occurs and propose a Bureau-maintained whitelist of certified third-party data recipients."
+        },
+        {
+            "theme": "Authorization and Data Access",
+            "summary": "ICBA supports the proposed provisions for confirming third-party authorization and suggests further clarifications to ensure data providers can confirm consumer authorization. They also support the use of data aggregators for authorization procedures."
+        },
+        {
+            "theme": "Industry Standards for APIs",
+            "summary": "ICBA supports the Bureau's approach of allowing industry standards for APIs to be established by recognized standard-setting bodies, arguing that these standards are more adaptable than prescriptive regulations. They encourage the Bureau to recognize the Financial Data Exchange (FDX) as a qualified standard-setting organization."
+        },
+        {
+            "theme": "Limitations on Data Use and Retention",
+            "summary": "ICBA supports the proposed limitations on third-party data use, including prohibitions on selling data and targeted advertising without explicit consent. They also agree with the proposed duration limits for data collection but suggest further clarification on the reasonable duration for different use cases."
+        },
+        {
+            "theme": "Data Accuracy and Security",
+            "summary": "ICBA agrees with the requirement for third parties to maintain policies ensuring data accuracy and security but emphasizes the need for Bureau supervision to ensure compliance. They believe banks are not well-positioned to vet third-party data security programs."
+        },
+        {
+            "theme": "Technological and Financial Burdens on Community Banks",
+            "summary": "ICBA highlights the significant technological and financial burdens the proposed rule imposes on community banks. They suggest exempting small banks from creating developer portals or allowing data providers to charge reasonable fees for data access to mitigate these burdens."
+        },
+        {
+            "theme": "Screen Scraping",
+            "summary": "JPMC argues that screen scraping is a dangerous practice that should be prohibited once API access is available. They highlight the risks and costs associated with blocking screen scraping and suggest that the CFPB should explicitly allow data providers to block such access."
+        },
+        {
+            "theme": "Prohibition on Fees",
+            "summary": "JPMC opposes the prohibition on fees for data access, arguing that it lacks a basis in section 1033 and would unfairly force data providers to subsidize third parties. They emphasize the substantial costs involved in enabling data sharing and suggest allowing reasonable fees to ensure continued investment in data security and innovation."
+        },
+        {
+            "theme": "Payment Initiation Information",
+            "summary": "JPMC raises concerns about the CFPB's mandate to share payment initiation information, arguing that it exceeds the agency's statutory authority and poses significant risks. They suggest that the CFPB should not regulate the payments ecosystem through section 1033 rulemaking without a comprehensive review and coordination with prudential regulators."
+        },
+        {
+            "theme": "Regulation and Oversight",
+            "summary": "JPMC stresses that the CFPB should directly regulate and oversee third parties and data aggregators to mitigate risks introduced by the rulemaking. They argue that data providers should not be responsible for enforcing third-party compliance."
+        },
+        {
+            "theme": "Risk Management",
+            "summary": "JPMC highlights the importance of allowing data providers to conduct comprehensive risk management programs and not be constrained by narrow definitions of risk management concerns. They emphasize the need for data providers to manage various risks, not just data security."
+        },
+        {
+            "theme": "Industry Standards",
+            "summary": "JPMC supports the role of industry standards bodies in promoting interoperability but cautions against giving them too much discretion. They suggest that the role of these bodies should be limited to defining data formats and not extend to other regulatory requirements."
+        },
+        {
+            "theme": "Data Aggregators",
+            "summary": "JPMC underscores the critical role of data aggregators in the data sharing ecosystem and calls for clear regulatory obligations and oversight for these entities. They argue that data aggregators should be held accountable for data security, privacy, and other responsibilities."
+        },
+        {
+            "theme": "Consumer Authentication and Authorization",
+            "summary": "JPMC stresses the importance of data providers authenticating consumers and capturing authorization directly to ensure security and control over sensitive financial data."
+        },
+        {
+            "theme": "Scope of Data Sharing",
+            "summary": "JPMC suggests narrowing the scope of data sharing requirements, particularly regarding terms and conditions, rewards, and bill payment information, to avoid operational burdens and protect consumer interests."
+        },
+        {
+            "theme": "Prohibition of Secondary Data Use",
+            "summary": "JPMC supports prohibiting the sale of data and limiting secondary uses such as targeted advertising and cross-selling to protect consumer privacy and trust."
+        },
+        {
+            "theme": "Implementation Timeline",
+            "summary": "JPMC recommends extending the compliance timeline for large institutions to at least 24 months to ensure a safe and effective implementation of the new rules."
+        },
+        {
+            "theme": "Compliance Timeline and Industry Standards",
+            "summary": "JPMC argues that the six-month compliance timeline is unrealistic due to the lack of existing industry standards and the time required for standard-setting bodies to develop and implement these standards. They suggest that the CFPB should allow more time for these standards to be established before requiring compliance."
+        },
+        {
+            "theme": "Third Party Readiness",
+            "summary": "JPMC highlights the need for data recipients and data aggregators to have sufficient time to adapt to new rules. They estimate that their team would need over a year to comply with the new obligations and stress the risk of disruption if compliance dates are not extended."
+        },
+        {
+            "theme": "Clarity on Roles and Responsibilities",
+            "summary": "JPMC requests that the CFPB provide clear definitions and obligations for data providers, data aggregators, and third parties. They emphasize the need for clarity on authorization management, third party oversight, and the specific roles and responsibilities of each party."
+        },
+        {
+            "theme": "Tokenized Account Numbers",
+            "summary": "JPMC advocates for the use of tokenized account numbers (TANs) to enhance security and consumer control. They argue that TANs reduce the risk of data breaches and provide better traceability in case of fraud."
+        },
+        {
+            "theme": "Machine-Readable Files",
+            "summary": "JPMC seeks clarification on the requirement for data providers to make covered data available in a machine-readable file. They express concerns about the potential costs and feasibility of creating such files and suggest that existing methods of data access should suffice."
+        },
+        {
+            "theme": "Performance Specifications",
+            "summary": "JPMC suggests modifying the response time requirement to an average latency threshold and excluding internet or network time from latency calculations. They also recommend less stringent thresholds for customer-not-present data refreshes and a rolling 3-month lookback window for uptime performance."
+        },
+        {
+            "theme": "Access Cap Prohibition",
+            "summary": "JPMC argues against involving an SSO in setting access frequency standards and supports a reasonableness standard to balance third-party needs and system protection."
+        },
+        {
+            "theme": "Security Specifications",
+            "summary": "JPMC supports the prohibition of tokenized screen-scraping and emphasizes the risks associated with screen-scraping as a fallback access method."
+        },
+        {
+            "theme": "Revocation of Third-Party Access",
+            "summary": "JPMC recommends allowing consumers to partially revoke third-party access to specific accounts, providing more granular control over data sharing."
+        },
+        {
+            "theme": "Developer Interface Documentation",
+            "summary": "JPMC suggests modifying the requirement for public disclosure of documentation to ensure security and practicality, and recommends a more flexible approach to maintaining and updating documentation."
+        },
+        {
+            "theme": "Performance Reporting",
+            "summary": "JPMC requests more time for data providers to publish performance statistics and suggests allowing an industry body to collect and publish this information for multiple data providers."
+        },
+        {
+            "theme": "Operational Challenges",
+            "summary": "JPMC finds the obligation in 1033.351(b)(1) problematic to operationalize and suggests removing it. They argue that data providers should have flexibility in how they operationalize the obligation to share covered data."
+        },
+        {
+            "theme": "Denials of Information Requests",
+            "summary": "JPMC argues that the requirement under section 1033.351(b)(3) to notify consumers of denied information requests is not feasible and should be removed. They provide examples to illustrate the practical difficulties in implementing this requirement."
+        },
+        {
+            "theme": "Record Retention",
+            "summary": "JPMC requests clarification on the record retention requirement, particularly whether it includes retaining records of every consumer portal login. They express concerns about the significant burden this could impose on data providers."
+        },
+        {
+            "theme": "Authorization Disclosure",
+            "summary": "JPMC suggests that the CFPB clarify what is meant by 'clear, conspicuous, and segregated from other material' in authorization disclosures. They recommend that the disclosure be separate from general terms and conditions and presented at the time of the data sharing request."
+        },
+        {
+            "theme": "Reauthorization",
+            "summary": "JPMC agrees with the requirement for annual reauthorization but suggests that it should be a 'lightweight' process. They also recommend that third parties provide evidence of reauthorization to data providers and allow providers to discontinue access if authorization lapses."
+        },
+        {
+            "theme": "Data Security",
+            "summary": "JPMC recommends that all third parties comply with the FFIEC Security Handbook for data security, rather than the GLBA or FTC Safeguards Rule, to ensure robust protection for sensitive financial data."
+        },
+        {
+            "theme": "Provision of Data to Third Parties",
+            "summary": "JPMC seeks clarification on the circumstances under which an authorized third party can provide data to another third party. They suggest raising the requirement from 'require by contract' to 'require and ensure' to ensure data protection."
+        },
+        {
+            "theme": "Authorization Procedures",
+            "summary": "JPMC suggests that the CFPB should clearly delineate which authorization procedures must be performed by the third party and which can be handled by data aggregators. They emphasize that certain disclosures and certifications should be the responsibility of the third party to ensure accountability."
+        },
+        {
+            "theme": "Data Aggregator's Role",
+            "summary": "JPMC recommends that the CFPB distinguish between the roles of data aggregators when acting as intermediaries versus authorized third parties. They propose prohibiting data aggregators from using consumer data for unrelated purposes without explicit consent."
+        },
+        {
+            "theme": "Consumer Control and Transparency",
+            "summary": "JPMC highlights the need for consumers to have clear means to cease data access and for data aggregators to react promptly to revocation requests. They also suggest that data aggregators should provide consumers with information about their data access and use."
+        },
+        {
+            "theme": "Data Aggregator Certification",
+            "summary": "JPMC recommends modifications to the certification requirements for data aggregators, including limitations on data collection, use, and retention, as well as maintaining written policies and ensuring data security."
+        },
+        {
+            "theme": "Dual Role of Data Aggregators",
+            "summary": "Mastercard requests clarification that data aggregators can act as authorized third parties if they comply with the relevant obligations, to reflect their broader role in the industry."
+        },
+        {
+            "theme": "Data Usage",
+            "summary": "Mastercard urges the CFPB to avoid imposing new financial privacy regulations where existing laws already apply, and to allow the use of de-identified data and data for product development and fraud prevention."
+        },
+        {
+            "theme": "Qualified Industry Standards",
+            "summary": "Mastercard supports the incorporation of qualified industry standards and suggests recognizing standard-setting bodies early and making compliance with these standards a safe harbor."
+        },
+        {
+            "theme": "Scope of the Proposed Rule",
+            "summary": "Mastercard recommends including all covered persons in the Final Rule to avoid consumer confusion and ensure comprehensive data access."
+        },
+        {
+            "theme": "Authorization",
+            "summary": "Mastercard suggests alternative approaches to reauthorization for payments use cases and emphasizes that authorization should be managed by third parties or data aggregators."
+        },
+        {
+            "theme": "Compliance Timeline",
+            "summary": "Mastercard requests a transition period for authorized third parties and data aggregators to connect to new developer interfaces to avoid disruption in data access."
+        },
+        {
+            "theme": "Performance Specification",
+            "summary": "Mastercard supports the proposed performance specifications for developer interfaces to ensure reliable consumer data access."
+        },
+        {
+            "theme": "Denials of Access",
+            "summary": "Mastercard emphasizes the need for a remediation process for third parties to address data provider concerns and continue accessing data."
+        },
+        {
+            "theme": "Implementation Timeframes",
+            "summary": "Plaid supports the developer interface mandate but suggests adjustments to the implementation timeframes to avoid disrupting existing consumer account connections and data portability rights."
+        },
+        {
+            "theme": "Authentication and Authorization Standards",
+            "summary": "Plaid recommends refining the proposed standards to reduce unnecessary friction and enhance consumer choice, ensuring a smoother and more secure user experience."
+        },
+        {
+            "theme": "Data Privacy Protections",
+            "summary": "Plaid suggests revisions to the proposed data privacy protections to avoid undermining consumer choice and innovation, and to ensure third parties can perform necessary activities like fraud prevention and product improvement."
+        },
+        {
+            "theme": "Third Party Access Certification",
+            "summary": "Plaid proposes that the CFPB should certify third parties for access to developer interfaces to prevent data providers from denying access based on pretextual risk management concerns."
+        },
+        {
+            "theme": "Enforcement of \u00a7 1033",
+            "summary": "Plaid recommends that the CFPB clarify its enforcement priorities and consider industry complaints to ensure compliance with the final rule."
+        },
+        {
+            "theme": "Definition of 'Consumer'",
+            "summary": "Plaid argues that the Bureau should revert to the statutory definition of 'consumer' as defined by Congress, rather than the modified version in the NPRM. They suggest that the Bureau lacks the authority to redefine 'consumer' and that the proposed definition could cause confusion and unintended consequences."
+        },
+        {
+            "theme": "Developer Interface Service Providers",
+            "summary": "Plaid recommends adding 'developer interface service provider' as a defined term and clarifying their obligations under the rule. They emphasize that these service providers should be subject to the same requirements as data providers and that data providers should be accountable for any non-compliance by these service providers."
+        },
+        {
+            "theme": "Transition from Screen Scraping to Developer Interfaces",
+            "summary": "Plaid supports the CFPB's deadlines for data providers to make developer interfaces available but suggests additional flexibility for compliance timelines. They highlight the importance of maintaining screen scraping as a backup method during the transition to avoid consumer harm."
+        },
+        {
+            "theme": "Scope of Consumer Data Rights",
+            "summary": "Plaid urges the Bureau to expand the scope of covered data to include more account types and data elements. They argue that the current narrow scope could lead to inconsistent consumer data access and potential removal of important data elements by data providers."
+        },
+        {
+            "theme": "Sensitive Consumer Data",
+            "summary": "Plaid supports the Bureau's approach to making Social Security and driver's license numbers optional but suggests they should be available without charge when provided."
+        },
+        {
+            "theme": "Pay-by-Bank Functionality",
+            "summary": "Plaid advocates for the reinforcement of pay-by-bank functionality, highlighting its benefits and the need for the U.S. to catch up with other countries in its adoption."
+        },
+        {
+            "theme": "Tokenized Account Numbers (TANs)",
+            "summary": "Plaid discusses the benefits and risks of TANs, suggesting several modifications to the final rule to ensure their effective implementation and prevent fraud."
+        },
+        {
+            "theme": "Third-Party Certification Standard",
+            "summary": "Plaid recommends adopting a third-party certification standard to prevent pretextual denials of access by data providers and ensure fair competition in the data access market."
+        },
+        {
+            "theme": "Discretion to Deny Access",
+            "summary": "Plaid argues that the proposed rule gives data providers too much discretion to deny access, which could be abused to stifle competition and harm consumers."
+        },
+        {
+            "theme": "Clarifications Needed",
+            "summary": "Plaid suggests that the rule should clarify that data providers are not responsible for protecting consumers' data once it is authorized to be moved to a third party and that the burden of proof for denying access should lie with the data providers."
+        },
+        {
+            "theme": "Specific Risk Definition",
+            "summary": "Plaid recommends that the term 'specific risk' should be explicitly limited to known security risks to prevent data providers from broadly interpreting it to deny access."
+        },
+        {
+            "theme": "Remediation Plan",
+            "summary": "Plaid suggests that data providers should be required to grant access once a third party has established a remediation plan for any identified security risks."
+        },
+        {
+            "theme": "Legacy Access",
+            "summary": "Plaid proposes that third parties already having access to data providers' interfaces should be 'legacied in' to avoid disruption when the final rule becomes effective."
+        },
+        {
+            "theme": "Transparency and Reporting",
+            "summary": "Plaid recommends that data providers should disclose detailed information about access denials to third parties and the CFPB, and that the CFPB should publish aggregate data on access denials."
+        },
+        {
+            "theme": "Non-Discrimination Standard",
+            "summary": "Plaid suggests strengthening the non-discrimination standard to ensure that data providers apply consistent criteria when denying access."
+        },
+        {
+            "theme": "Prohibition on Fees",
+            "summary": "Plaid supports the prohibition on data providers charging fees for interface development, maintenance, and access, as it ensures consumers' rights to freely access and share their data."
+        },
+        {
+            "theme": "Access Caps",
+            "summary": "The Bureau should clarify that any access caps impede consumers' ability to access their data, not just third parties. Different consumers have different needs, and access caps should reflect this reality."
+        },
+        {
+            "theme": "Frequency of Access Requests",
+            "summary": "The Bureau should specify that consumer-present access requests can never be capped, and batch traffic access requests should have a rebuttable presumption in favor of uncapped frequency of access."
+        },
+        {
+            "theme": "Cumulative Data Requests",
+            "summary": "Data providers should not restrict the total amount of data that a third party can request over a given time period, as this would limit consumer access and third-party growth."
+        },
+        {
+            "theme": "Access Caps Based on Provider Size",
+            "summary": "Smaller data providers should not implement access caps based on their size, as the volume of data access traffic correlates with the number of consumers they have."
+        },
+        {
+            "theme": "Performance Reporting",
+            "summary": "The Bureau should require data providers to include access cap and other performance information in their monthly performance reports to ensure transparency and commercially reasonable conduct."
+        },
+        {
+            "theme": "Anti-Competitive Practices",
+            "summary": "The Bureau should clearly state that denials of access or other attempts to block or hinder access are violations of the law when they are anti-competitive or pretextual."
+        },
+        {
+            "theme": "Enforcement Mechanisms",
+            "summary": "The Bureau should provide mechanisms for consumers and industry participants to report noncompliance and articulate its intent to review complaints when setting supervisory priorities."
+        },
+        {
+            "theme": "Consumer Friction in Authentication Redirects",
+            "summary": "Plaid identifies three main issues causing consumer friction: unnecessary content during authentication, reliance on login credentials, and lack of access delegation technology."
+        },
+        {
+            "theme": "Streamlined Authentication Process",
+            "summary": "Plaid suggests that data providers should only conduct authentication on a single screen and avoid presenting non-authentication-related content to reduce consumer friction."
+        },
+        {
+            "theme": "Industry-Leading Authentication Methods",
+            "summary": "Plaid recommends that data providers use commercially reasonable, industry-leading authentication methods, such as biometrics and Passkeys, to enhance security and reduce consumer frustration."
+        },
+        {
+            "theme": "App-to-App Redirects for Mobile Devices",
+            "summary": "Plaid advocates for the implementation of app-to-app redirects on mobile devices to provide a seamless and secure authentication experience using biometric authentication."
+        },
+        {
+            "theme": "Single Authentication Requirement",
+            "summary": "Plaid argues that data providers should only authenticate consumers the first time they share data with a third party, with subsequent authorizations relying on the third party's authentication."
+        },
+        {
+            "theme": "Authorization Procedures",
+            "summary": "Plaid supports the Bureau's proposed authorization procedures, emphasizing the balance of clarity and flexibility, and suggests further clarifications to enhance consumer protection and reduce friction."
+        },
+        {
+            "theme": "Consumer Data Management",
+            "summary": "The feedback supports giving consumers the ability to manage their data connections but warns against potential anticompetitive behavior and consumer confusion if data providers are involved in the revocation process."
+        },
+        {
+            "theme": "Revocation and Reauthorization",
+            "summary": "The feedback suggests limiting data providers' communications about revocation, prohibiting reauthorization functionality at data providers, and ensuring timely communication between data providers, third parties, and data access platforms."
+        },
+        {
+            "theme": "Authorization Procedures",
+            "summary": "The feedback emphasizes the importance of clear authorization procedures to prevent unnecessary friction and anticompetitive interference, suggesting that third parties should handle authorization and account selection."
+        },
+        {
+            "theme": "Performance Requirements",
+            "summary": "The feedback recommends specific performance requirements for data providers' developer interfaces to ensure availability and reduce the risk of access denial."
+        },
+        {
+            "theme": "Consumer Confusion and Choice",
+            "summary": "The proposed rule may unintentionally confuse consumers about their data rights, reduce their choices, and entrench incumbents' positions in financial services."
+        },
+        {
+            "theme": "Reasonably Necessary Standard",
+            "summary": "The 'reasonably necessary' standard is ambiguous and may hinder beneficial data uses, such as fraud prevention, product improvement, and consumer support."
+        },
+        {
+            "theme": "Secondary Data Use",
+            "summary": "The blanket prohibition on secondary data use is more restrictive than other privacy laws and may deny consumers benefits, hinder innovation, and reduce competition."
+        },
+        {
+            "theme": "De-identified Data",
+            "summary": "Plaid argues that de-identified data should not be subject to privacy restrictions as it is anonymous and does not have privacy implications. They suggest that the CFPB set a clear standard for de-identification in its final rule."
+        },
+        {
+            "theme": "Inconsistent Privacy Protections",
+            "summary": "Plaid highlights the risks of applying privacy protections only to third parties and not to data providers, including consumer confusion and unfair competition. They argue that consumers should have consistent protections for their data regardless of who holds it."
+        },
+        {
+            "theme": "Alternative Approaches",
+            "summary": "Plaid suggests several alternative approaches to ensure consistent data privacy protections, including encouraging Congress to amend GLBA, undertaking a GLBA rulemaking, issuing broader guidance on data privacy, and applying privacy restrictions uniformly to all ecosystem participants."
+        },
+        {
+            "theme": "Data Access Agreements",
+            "summary": "Plaid supports the proposed rule's potential to reduce the cost of negotiating data access agreements and urges the CFPB to explicitly state that such agreements are not required as a condition of access."
+        },
+        {
+            "theme": "Electronic Benefit Transfer (EBT) Data",
+            "summary": "Plaid urges the CFPB to include EBT data in the final rule to benefit vulnerable populations and ensure they have access to their financial data."
+        },
+        {
+            "theme": "Account Statements",
+            "summary": "Plaid recommends including 'account statements' as an enumerated data type in the final rule to support lending use cases and make it easier for consumers to fulfill documentary requirements."
+        },
+        {
+            "theme": "Implementation Timeframes",
+            "summary": "Plaid suggests adjusting the proposed implementation timeframes to avoid risks to existing consumer account connections and statutory portability rights, and recommends market monitoring during the implementation period."
+        },
+        {
+            "theme": "Authentication and Authorization Standards",
+            "summary": "Plaid recommends refining the proposed standards to reduce friction, enhance consumer choice, and push the industry towards better authentication and authorization methods."
+        },
+        {
+            "theme": "Data Privacy Protections",
+            "summary": "Plaid advises revising the proposed data privacy protections to avoid undermining consumer choice, interfering with anti-fraud efforts, and hindering innovative product development. They suggest recognizing beneficial secondary data uses with appropriate safeguards."
+        },
+        {
+            "theme": "Interface Access",
+            "summary": "Plaid calls for clarification on the proposed approach to interface access to avoid burden and inefficiency, and suggests that the Bureau should certify third parties or accept third-party attestations of adequate security."
+        },
+        {
+            "theme": "Enforcement of \u00a7 1033",
+            "summary": "Plaid emphasizes the importance of clarifying the Bureau's enforcement interests, stating that failure to meet rule obligations is a legal violation, and that industry complaints should influence supervision and enforcement priorities."
+        }
+    ]
+}

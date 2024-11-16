@@ -1,0 +1,359 @@
+{
+    "summary": [
+        "JPMorgan Chase & Co. (JPMC) appreciates the CFPB's proposed rule on Personal Financial Data Rights, emphasizing the importance of safe, permissioned access to financial data. JPMC highlights the risks of unsafe data access practices like screen scraping and suggests prohibiting such practices once API access is available. They also argue against the prohibition on fees for data access, citing substantial costs and the need for fair compensation. Additionally, JPMC raises concerns about the CFPB's mandate to share payment initiation information, suggesting it exceeds the agency's statutory authority and poses significant risks.",
+        "JPMC provides extensive feedback on the CFPB's proposed rulemaking, emphasizing the need for the CFPB to directly regulate and oversee third parties and data aggregators to mitigate risks. They argue that data providers should not be burdened with enforcing third-party compliance and highlight the practical and constitutional challenges of such delegation. JPMC suggests specific regulatory obligations for third parties and data aggregators, including regular examinations and enforcement. They also discuss the role of industry standards bodies and the need for balanced governance and effective risk management.",
+        "JPMC provides detailed feedback on the CFPB's proposed rules regarding consumer data sharing, emphasizing the need for data providers to authenticate consumers and capture authorization directly. They support certain aspects of the proposal but suggest modifications to make the rules more feasible and beneficial for consumers.",
+        "JPMC provides detailed feedback on the CFPB's proposed rulemaking, highlighting the challenges of a six-month compliance timeline, the need for industry standards, and the importance of clear roles and responsibilities for data providers and third parties. They emphasize the necessity of extending compliance dates to ensure all ecosystem participants can adapt without disruption and suggest specific clarifications and modifications to the proposed rules.",
+        "JPMC provides detailed feedback on the performance specifications for developer interfaces, suggesting modifications to response time requirements, latency thresholds, and the definition of response rate. They also recommend changes to access cap prohibitions, security specifications, and the process for revoking third-party access. JPMC emphasizes the need for practical and achievable standards that consider the operational realities and challenges faced by data providers.",
+        "JPMC provides detailed feedback on the proposed regulations, highlighting operational challenges and suggesting modifications to ensure practical implementation. They emphasize the need for flexibility in data sharing obligations, clarity in record retention requirements, and practical approaches to authorization and data security.",
+        "JPMC provides detailed feedback on the proposed rules regarding data aggregators and third-party authorization procedures. They recommend clarifications and modifications to ensure consumer transparency and control over data sharing."
+    ],
+    "main_themes": [
+        {
+            "theme": "Screen Scraping",
+            "summary": "JPMC argues that screen scraping is a dangerous practice that should be prohibited once API access is available. They highlight the risks and costs associated with blocking screen scraping and suggest that the CFPB should explicitly allow data providers to block such access."
+        },
+        {
+            "theme": "Prohibition on Fees",
+            "summary": "JPMC opposes the prohibition on fees for data access, arguing that it lacks a basis in section 1033 and would unfairly force data providers to subsidize third parties. They emphasize the substantial costs involved in enabling data sharing and suggest allowing reasonable fees to ensure continued investment in data security and innovation."
+        },
+        {
+            "theme": "Payment Initiation Information",
+            "summary": "JPMC raises concerns about the CFPB's mandate to share payment initiation information, arguing that it exceeds the agency's statutory authority and poses significant risks. They suggest that the CFPB should not regulate the payments ecosystem through section 1033 rulemaking without a comprehensive review and coordination with prudential regulators."
+        },
+        {
+            "theme": "Regulation and Oversight",
+            "summary": "JPMC stresses that the CFPB should directly regulate and oversee third parties and data aggregators to mitigate risks introduced by the rulemaking. They argue that data providers should not be responsible for enforcing third-party compliance."
+        },
+        {
+            "theme": "Risk Management",
+            "summary": "JPMC highlights the importance of allowing data providers to conduct comprehensive risk management programs and not be constrained by narrow definitions of risk management concerns. They emphasize the need for data providers to manage various risks, not just data security."
+        },
+        {
+            "theme": "Industry Standards",
+            "summary": "JPMC supports the role of industry standards bodies in promoting interoperability but cautions against giving them too much discretion. They suggest that the role of these bodies should be limited to defining data formats and not extend to other regulatory requirements."
+        },
+        {
+            "theme": "Data Aggregators",
+            "summary": "JPMC underscores the critical role of data aggregators in the data sharing ecosystem and calls for clear regulatory obligations and oversight for these entities. They argue that data aggregators should be held accountable for data security, privacy, and other responsibilities."
+        },
+        {
+            "theme": "Consumer Authentication and Authorization",
+            "summary": "JPMC stresses the importance of data providers authenticating consumers and capturing authorization directly to ensure security and control over sensitive financial data."
+        },
+        {
+            "theme": "Scope of Data Sharing",
+            "summary": "JPMC suggests narrowing the scope of data sharing requirements, particularly regarding terms and conditions, rewards, and bill payment information, to avoid operational burdens and protect consumer interests."
+        },
+        {
+            "theme": "Prohibition of Secondary Data Use",
+            "summary": "JPMC supports prohibiting the sale of data and limiting secondary uses such as targeted advertising and cross-selling to protect consumer privacy and trust."
+        },
+        {
+            "theme": "Implementation Timeline",
+            "summary": "JPMC recommends extending the compliance timeline for large institutions to at least 24 months to ensure a safe and effective implementation of the new rules."
+        },
+        {
+            "theme": "Compliance Timeline and Industry Standards",
+            "summary": "JPMC argues that the six-month compliance timeline is unrealistic due to the lack of existing industry standards and the time required for standard-setting bodies to develop and implement these standards. They suggest that the CFPB should allow more time for these standards to be established before requiring compliance."
+        },
+        {
+            "theme": "Third Party Readiness",
+            "summary": "JPMC highlights the need for data recipients and data aggregators to have sufficient time to adapt to new rules. They estimate that their team would need over a year to comply with the new obligations and stress the risk of disruption if compliance dates are not extended."
+        },
+        {
+            "theme": "Clarity on Roles and Responsibilities",
+            "summary": "JPMC requests that the CFPB provide clear definitions and obligations for data providers, data aggregators, and third parties. They emphasize the need for clarity on authorization management, third party oversight, and the specific roles and responsibilities of each party."
+        },
+        {
+            "theme": "Tokenized Account Numbers",
+            "summary": "JPMC advocates for the use of tokenized account numbers (TANs) to enhance security and consumer control. They argue that TANs reduce the risk of data breaches and provide better traceability in case of fraud."
+        },
+        {
+            "theme": "Machine-Readable Files",
+            "summary": "JPMC seeks clarification on the requirement for data providers to make covered data available in a machine-readable file. They express concerns about the potential costs and feasibility of creating such files and suggest that existing methods of data access should suffice."
+        },
+        {
+            "theme": "Performance Specifications",
+            "summary": "JPMC suggests modifying the response time requirement to an average latency threshold and excluding internet or network time from latency calculations. They also recommend less stringent thresholds for customer-not-present data refreshes and a rolling 3-month lookback window for uptime performance."
+        },
+        {
+            "theme": "Access Cap Prohibition",
+            "summary": "JPMC argues against involving an SSO in setting access frequency standards and supports a reasonableness standard to balance third-party needs and system protection."
+        },
+        {
+            "theme": "Security Specifications",
+            "summary": "JPMC supports the prohibition of tokenized screen-scraping and emphasizes the risks associated with screen-scraping as a fallback access method."
+        },
+        {
+            "theme": "Revocation of Third-Party Access",
+            "summary": "JPMC recommends allowing consumers to partially revoke third-party access to specific accounts, providing more granular control over data sharing."
+        },
+        {
+            "theme": "Developer Interface Documentation",
+            "summary": "JPMC suggests modifying the requirement for public disclosure of documentation to ensure security and practicality, and recommends a more flexible approach to maintaining and updating documentation."
+        },
+        {
+            "theme": "Performance Reporting",
+            "summary": "JPMC requests more time for data providers to publish performance statistics and suggests allowing an industry body to collect and publish this information for multiple data providers."
+        },
+        {
+            "theme": "Operational Challenges",
+            "summary": "JPMC finds the obligation in 1033.351(b)(1) problematic to operationalize and suggests removing it. They argue that data providers should have flexibility in how they operationalize the obligation to share covered data."
+        },
+        {
+            "theme": "Denials of Information Requests",
+            "summary": "JPMC argues that the requirement under section 1033.351(b)(3) to notify consumers of denied information requests is not feasible and should be removed. They provide examples to illustrate the practical difficulties in implementing this requirement."
+        },
+        {
+            "theme": "Record Retention",
+            "summary": "JPMC requests clarification on the record retention requirement, particularly whether it includes retaining records of every consumer portal login. They express concerns about the significant burden this could impose on data providers."
+        },
+        {
+            "theme": "Authorization Disclosure",
+            "summary": "JPMC suggests that the CFPB clarify what is meant by 'clear, conspicuous, and segregated from other material' in authorization disclosures. They recommend that the disclosure be separate from general terms and conditions and presented at the time of the data sharing request."
+        },
+        {
+            "theme": "Reauthorization",
+            "summary": "JPMC agrees with the requirement for annual reauthorization but suggests that it should be a 'lightweight' process. They also recommend that third parties provide evidence of reauthorization to data providers and allow providers to discontinue access if authorization lapses."
+        },
+        {
+            "theme": "Data Security",
+            "summary": "JPMC recommends that all third parties comply with the FFIEC Security Handbook for data security, rather than the GLBA or FTC Safeguards Rule, to ensure robust protection for sensitive financial data."
+        },
+        {
+            "theme": "Provision of Data to Third Parties",
+            "summary": "JPMC seeks clarification on the circumstances under which an authorized third party can provide data to another third party. They suggest raising the requirement from 'require by contract' to 'require and ensure' to ensure data protection."
+        },
+        {
+            "theme": "Authorization Procedures",
+            "summary": "JPMC suggests that the CFPB should clearly delineate which authorization procedures must be performed by the third party and which can be handled by data aggregators. They emphasize that certain disclosures and certifications should be the responsibility of the third party to ensure accountability."
+        },
+        {
+            "theme": "Data Aggregator's Role",
+            "summary": "JPMC recommends that the CFPB distinguish between the roles of data aggregators when acting as intermediaries versus authorized third parties. They propose prohibiting data aggregators from using consumer data for unrelated purposes without explicit consent."
+        },
+        {
+            "theme": "Consumer Control and Transparency",
+            "summary": "JPMC highlights the need for consumers to have clear means to cease data access and for data aggregators to react promptly to revocation requests. They also suggest that data aggregators should provide consumers with information about their data access and use."
+        },
+        {
+            "theme": "Data Aggregator Certification",
+            "summary": "JPMC recommends modifications to the certification requirements for data aggregators, including limitations on data collection, use, and retention, as well as maintaining written policies and ensuring data security."
+        }
+    ],
+    "overall_sentiment": [
+        {
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        }
+    ],
+    "aspect_based_sentiment": [
+        {
+            "aspect": "Screen Scraping",
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "aspect": "Prohibition on Fees",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Payment Initiation Information",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Regulation and Oversight",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Risk Management",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Industry Standards",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Data Aggregators",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Consumer Authentication and Authorization",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Scope of Data Sharing",
+            "sentiment": "Neutral",
+            "score": 0.2
+        },
+        {
+            "aspect": "Prohibition of Secondary Data Use",
+            "sentiment": "Positive",
+            "score": 0.6
+        },
+        {
+            "aspect": "Implementation Timeline",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Compliance Timeline and Industry Standards",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Third Party Readiness",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Clarity on Roles and Responsibilities",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Tokenized Account Numbers",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Machine-Readable Files",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Performance Specifications",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Access Cap Prohibition",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Security Specifications",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Revocation of Third-Party Access",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Developer Interface Documentation",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Performance Reporting",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Operational Challenges",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Denials of Information Requests",
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "aspect": "Record Retention",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Authorization Disclosure",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Reauthorization",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Data Security",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Provision of Data to Third Parties",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Authorization Procedures",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Data Aggregator's Role",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Consumer Control and Transparency",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Data Aggregator Certification",
+            "sentiment": "Neutral",
+            "score": 0.0
+        }
+    ],
+    "suggestions": [
+        "Prohibit credential-based access and screen scraping by third parties once API access is available. Allow data providers to charge reasonable fees for enabling data access. Reconsider the mandate to share payment initiation information and coordinate with prudential regulators to address the associated risks.",
+        "JPMC suggests that the CFPB should place regulatory obligations directly on third parties and data aggregators, ensure adherence to regulatory requirements through regular examinations and enforcement, and establish a level playing field for information security requirements. They also recommend that the CFPB clarify the roles and responsibilities of data aggregators and provide flexibility for data providers to manage risk.",
+        "JPMC suggests modifying the scope of data sharing requirements, explicitly prohibiting the sale of data, clarifying the permitted scope of data collection, and extending the compliance timeline for large institutions to at least 24 months.",
+        "JPMC suggests extending the compliance timeline, providing clear definitions and obligations for all parties involved, allowing the use of tokenized account numbers, and clarifying the requirements for machine-readable files.",
+        "Modify response time requirement to an average latency threshold.",
+        "Set less stringent latency thresholds for customer-not-present data refreshes.",
+        "Use a rolling 3-month lookback window for uptime performance.",
+        "Exclude internet or network time from latency calculations.",
+        "Avoid involving an SSO in setting access frequency standards.",
+        "Allow consumers to partially revoke third-party access to specific accounts.",
+        "Modify public disclosure requirements for developer interface documentation.",
+        "Provide more time for data providers to publish performance statistics.",
+        "Allow an industry body to collect and publish performance information for multiple data providers.",
+        "JPMC suggests removing the obligation in 1033.351(b)(1) and 1033.351(b)(3), clarifying record retention requirements, making authorization disclosures separate from general terms and conditions, allowing lightweight reauthorization, requiring third parties to comply with the FFIEC Security Handbook, and ensuring data protection when providing data to other third parties.",
+        "JPMC suggests clarifying the responsibilities of third parties and data aggregators, prohibiting data aggregators from using consumer data for unrelated purposes without explicit consent, ensuring consumers have clear means to cease data access, and modifying certification requirements for data aggregators."
+    ]
+}

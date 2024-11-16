@@ -1,0 +1,546 @@
+{
+    "summary": [
+        "Plaid appreciates the opportunity to comment on the CFPB's proposed rulemaking on Personal Financial Data Rights. They emphasize the importance of consumer control over financial data and the role of data access platforms in promoting competition and innovation in financial services. Plaid provides several recommendations to refine the proposed rule to better achieve its goals and avoid unintended consequences.",
+        "Plaid provides detailed feedback on the Bureau's final rule, focusing on the definition of 'consumer,' the role and obligations of developer interface service providers, the transition from screen scraping to developer interfaces, and the scope of consumer data rights.",
+        "Plaid provides detailed feedback on the Bureau's approach to handling sensitive consumer data, promoting pay-by-bank functionality, and the use of tokenized account numbers (TANs). They emphasize the importance of making Social Security and driver's license numbers optional but available without charge, and advocate for the reinforcement of pro-consumer and pro-competition payment developments. Plaid also discusses the benefits and risks associated with TANs, suggesting several modifications to the final rule to ensure their effective implementation. Additionally, they highlight the need for a third-party certification standard to prevent pretextual denials of access by data providers and ensure fair competition in the data access market.",
+        "Plaid provides detailed feedback on the proposed rule regarding data providers' discretion to deny access to consumer data. They argue that the rule, as currently written, allows data providers too much discretion, which could be abused to stifle competition and harm consumers. Plaid suggests several clarifications and additional requirements to ensure that data providers cannot unjustly deny access to third parties authorized by consumers.",
+        "Comments in Attached File",
+        "Plaid provides detailed feedback on the authentication redirect process, highlighting consumer friction and suggesting improvements to enhance data portability and security. The feedback emphasizes the need for streamlined authentication processes, industry-leading authentication methods, and the implementation of app-to-app redirects for mobile devices. Plaid also suggests that data providers should only authenticate consumers the first time they share data with a third party and not require re-authentication for subsequent authorizations.",
+        "The feedback supports the CFPB's proposal to allow consumers to manage their data sharing but raises concerns about potential anticompetitive behavior and consumer confusion. It suggests establishing guardrails to ensure data providers' engagement in revocation is solely for consumer benefit. The feedback also recommends limiting data providers' communications about revocation, prohibiting reauthorization functionality at data providers, and ensuring timely communication between data providers, third parties, and data access platforms. Additionally, it proposes a dormancy test for reauthorization and emphasizes the importance of clear authorization procedures to prevent unnecessary friction and anticompetitive interference.",
+        "PLAID provides feedback on the CFPB's proposed consumer data rights rule, expressing concerns that the rule, as currently formulated, may increase consumer confusion, reduce choice, and unfairly advantage incumbents. PLAID suggests modifications to ensure the rule aligns with existing privacy laws and truly benefits consumers by promoting understanding and control over their data.",
+        "Plaid provides detailed feedback on the CFPB's proposed rule regarding data privacy protections, emphasizing the importance of consistent application of privacy protections to both third parties and data providers. They argue that de-identified data should not be subject to privacy restrictions and highlight the risks of uneven application of privacy protections, including consumer confusion and unfair competition. Plaid suggests several alternative approaches to ensure consistent data privacy protections across the open finance ecosystem.",
+        "Plaid appreciates the Bureau's efforts in proposing regulations to secure consumer financial data access and suggests several adjustments to enhance the final rule. These include adjusting implementation timeframes, refining authentication and authorization standards, revising data privacy protections, clarifying interface access approaches, and emphasizing the Bureau's enforcement interests."
+    ],
+    "main_themes": [
+        {
+            "theme": "Implementation Timeframes",
+            "summary": "Plaid supports the developer interface mandate but suggests adjustments to the implementation timeframes to avoid disrupting existing consumer account connections and data portability rights."
+        },
+        {
+            "theme": "Authentication and Authorization Standards",
+            "summary": "Plaid recommends refining the proposed standards to reduce unnecessary friction and enhance consumer choice, ensuring a smoother and more secure user experience."
+        },
+        {
+            "theme": "Data Privacy Protections",
+            "summary": "Plaid suggests revisions to the proposed data privacy protections to avoid undermining consumer choice and innovation, and to ensure third parties can perform necessary activities like fraud prevention and product improvement."
+        },
+        {
+            "theme": "Third Party Access Certification",
+            "summary": "Plaid proposes that the CFPB should certify third parties for access to developer interfaces to prevent data providers from denying access based on pretextual risk management concerns."
+        },
+        {
+            "theme": "Enforcement of \u00a7 1033",
+            "summary": "Plaid recommends that the CFPB clarify its enforcement priorities and consider industry complaints to ensure compliance with the final rule."
+        },
+        {
+            "theme": "Definition of 'Consumer'",
+            "summary": "Plaid argues that the Bureau should revert to the statutory definition of 'consumer' as defined by Congress, rather than the modified version in the NPRM. They suggest that the Bureau lacks the authority to redefine 'consumer' and that the proposed definition could cause confusion and unintended consequences."
+        },
+        {
+            "theme": "Developer Interface Service Providers",
+            "summary": "Plaid recommends adding 'developer interface service provider' as a defined term and clarifying their obligations under the rule. They emphasize that these service providers should be subject to the same requirements as data providers and that data providers should be accountable for any non-compliance by these service providers."
+        },
+        {
+            "theme": "Transition from Screen Scraping to Developer Interfaces",
+            "summary": "Plaid supports the CFPB's deadlines for data providers to make developer interfaces available but suggests additional flexibility for compliance timelines. They highlight the importance of maintaining screen scraping as a backup method during the transition to avoid consumer harm."
+        },
+        {
+            "theme": "Scope of Consumer Data Rights",
+            "summary": "Plaid urges the Bureau to expand the scope of covered data to include more account types and data elements. They argue that the current narrow scope could lead to inconsistent consumer data access and potential removal of important data elements by data providers."
+        },
+        {
+            "theme": "Sensitive Consumer Data",
+            "summary": "Plaid supports the Bureau's approach to making Social Security and driver's license numbers optional but suggests they should be available without charge when provided."
+        },
+        {
+            "theme": "Pay-by-Bank Functionality",
+            "summary": "Plaid advocates for the reinforcement of pay-by-bank functionality, highlighting its benefits and the need for the U.S. to catch up with other countries in its adoption."
+        },
+        {
+            "theme": "Tokenized Account Numbers (TANs)",
+            "summary": "Plaid discusses the benefits and risks of TANs, suggesting several modifications to the final rule to ensure their effective implementation and prevent fraud."
+        },
+        {
+            "theme": "Third-Party Certification Standard",
+            "summary": "Plaid recommends adopting a third-party certification standard to prevent pretextual denials of access by data providers and ensure fair competition in the data access market."
+        },
+        {
+            "theme": "Discretion to Deny Access",
+            "summary": "Plaid argues that the proposed rule gives data providers too much discretion to deny access, which could be abused to stifle competition and harm consumers."
+        },
+        {
+            "theme": "Clarifications Needed",
+            "summary": "Plaid suggests that the rule should clarify that data providers are not responsible for protecting consumers' data once it is authorized to be moved to a third party and that the burden of proof for denying access should lie with the data providers."
+        },
+        {
+            "theme": "Specific Risk Definition",
+            "summary": "Plaid recommends that the term 'specific risk' should be explicitly limited to known security risks to prevent data providers from broadly interpreting it to deny access."
+        },
+        {
+            "theme": "Remediation Plan",
+            "summary": "Plaid suggests that data providers should be required to grant access once a third party has established a remediation plan for any identified security risks."
+        },
+        {
+            "theme": "Legacy Access",
+            "summary": "Plaid proposes that third parties already having access to data providers' interfaces should be 'legacied in' to avoid disruption when the final rule becomes effective."
+        },
+        {
+            "theme": "Transparency and Reporting",
+            "summary": "Plaid recommends that data providers should disclose detailed information about access denials to third parties and the CFPB, and that the CFPB should publish aggregate data on access denials."
+        },
+        {
+            "theme": "Non-Discrimination Standard",
+            "summary": "Plaid suggests strengthening the non-discrimination standard to ensure that data providers apply consistent criteria when denying access."
+        },
+        {
+            "theme": "Prohibition on Fees",
+            "summary": "Plaid supports the prohibition on data providers charging fees for interface development, maintenance, and access, as it ensures consumers' rights to freely access and share their data."
+        },
+        {
+            "theme": "Access Caps",
+            "summary": "The Bureau should clarify that any access caps impede consumers' ability to access their data, not just third parties. Different consumers have different needs, and access caps should reflect this reality."
+        },
+        {
+            "theme": "Frequency of Access Requests",
+            "summary": "The Bureau should specify that consumer-present access requests can never be capped, and batch traffic access requests should have a rebuttable presumption in favor of uncapped frequency of access."
+        },
+        {
+            "theme": "Cumulative Data Requests",
+            "summary": "Data providers should not restrict the total amount of data that a third party can request over a given time period, as this would limit consumer access and third-party growth."
+        },
+        {
+            "theme": "Access Caps Based on Provider Size",
+            "summary": "Smaller data providers should not implement access caps based on their size, as the volume of data access traffic correlates with the number of consumers they have."
+        },
+        {
+            "theme": "Performance Reporting",
+            "summary": "The Bureau should require data providers to include access cap and other performance information in their monthly performance reports to ensure transparency and commercially reasonable conduct."
+        },
+        {
+            "theme": "Anti-Competitive Practices",
+            "summary": "The Bureau should clearly state that denials of access or other attempts to block or hinder access are violations of the law when they are anti-competitive or pretextual."
+        },
+        {
+            "theme": "Enforcement Mechanisms",
+            "summary": "The Bureau should provide mechanisms for consumers and industry participants to report noncompliance and articulate its intent to review complaints when setting supervisory priorities."
+        },
+        {
+            "theme": "Consumer Friction in Authentication Redirects",
+            "summary": "Plaid identifies three main issues causing consumer friction: unnecessary content during authentication, reliance on login credentials, and lack of access delegation technology."
+        },
+        {
+            "theme": "Streamlined Authentication Process",
+            "summary": "Plaid suggests that data providers should only conduct authentication on a single screen and avoid presenting non-authentication-related content to reduce consumer friction."
+        },
+        {
+            "theme": "Industry-Leading Authentication Methods",
+            "summary": "Plaid recommends that data providers use commercially reasonable, industry-leading authentication methods, such as biometrics and Passkeys, to enhance security and reduce consumer frustration."
+        },
+        {
+            "theme": "App-to-App Redirects for Mobile Devices",
+            "summary": "Plaid advocates for the implementation of app-to-app redirects on mobile devices to provide a seamless and secure authentication experience using biometric authentication."
+        },
+        {
+            "theme": "Single Authentication Requirement",
+            "summary": "Plaid argues that data providers should only authenticate consumers the first time they share data with a third party, with subsequent authorizations relying on the third party's authentication."
+        },
+        {
+            "theme": "Authorization Procedures",
+            "summary": "Plaid supports the Bureau's proposed authorization procedures, emphasizing the balance of clarity and flexibility, and suggests further clarifications to enhance consumer protection and reduce friction."
+        },
+        {
+            "theme": "Consumer Data Management",
+            "summary": "The feedback supports giving consumers the ability to manage their data connections but warns against potential anticompetitive behavior and consumer confusion if data providers are involved in the revocation process."
+        },
+        {
+            "theme": "Revocation and Reauthorization",
+            "summary": "The feedback suggests limiting data providers' communications about revocation, prohibiting reauthorization functionality at data providers, and ensuring timely communication between data providers, third parties, and data access platforms."
+        },
+        {
+            "theme": "Authorization Procedures",
+            "summary": "The feedback emphasizes the importance of clear authorization procedures to prevent unnecessary friction and anticompetitive interference, suggesting that third parties should handle authorization and account selection."
+        },
+        {
+            "theme": "Performance Requirements",
+            "summary": "The feedback recommends specific performance requirements for data providers' developer interfaces to ensure availability and reduce the risk of access denial."
+        },
+        {
+            "theme": "Consumer Confusion and Choice",
+            "summary": "The proposed rule may unintentionally confuse consumers about their data rights, reduce their choices, and entrench incumbents' positions in financial services."
+        },
+        {
+            "theme": "Reasonably Necessary Standard",
+            "summary": "The 'reasonably necessary' standard is ambiguous and may hinder beneficial data uses, such as fraud prevention, product improvement, and consumer support."
+        },
+        {
+            "theme": "Secondary Data Use",
+            "summary": "The blanket prohibition on secondary data use is more restrictive than other privacy laws and may deny consumers benefits, hinder innovation, and reduce competition."
+        },
+        {
+            "theme": "De-identified Data",
+            "summary": "Plaid argues that de-identified data should not be subject to privacy restrictions as it is anonymous and does not have privacy implications. They suggest that the CFPB set a clear standard for de-identification in its final rule."
+        },
+        {
+            "theme": "Inconsistent Privacy Protections",
+            "summary": "Plaid highlights the risks of applying privacy protections only to third parties and not to data providers, including consumer confusion and unfair competition. They argue that consumers should have consistent protections for their data regardless of who holds it."
+        },
+        {
+            "theme": "Alternative Approaches",
+            "summary": "Plaid suggests several alternative approaches to ensure consistent data privacy protections, including encouraging Congress to amend GLBA, undertaking a GLBA rulemaking, issuing broader guidance on data privacy, and applying privacy restrictions uniformly to all ecosystem participants."
+        },
+        {
+            "theme": "Data Access Agreements",
+            "summary": "Plaid supports the proposed rule's potential to reduce the cost of negotiating data access agreements and urges the CFPB to explicitly state that such agreements are not required as a condition of access."
+        },
+        {
+            "theme": "Electronic Benefit Transfer (EBT) Data",
+            "summary": "Plaid urges the CFPB to include EBT data in the final rule to benefit vulnerable populations and ensure they have access to their financial data."
+        },
+        {
+            "theme": "Account Statements",
+            "summary": "Plaid recommends including 'account statements' as an enumerated data type in the final rule to support lending use cases and make it easier for consumers to fulfill documentary requirements."
+        },
+        {
+            "theme": "Implementation Timeframes",
+            "summary": "Plaid suggests adjusting the proposed implementation timeframes to avoid risks to existing consumer account connections and statutory portability rights, and recommends market monitoring during the implementation period."
+        },
+        {
+            "theme": "Authentication and Authorization Standards",
+            "summary": "Plaid recommends refining the proposed standards to reduce friction, enhance consumer choice, and push the industry towards better authentication and authorization methods."
+        },
+        {
+            "theme": "Data Privacy Protections",
+            "summary": "Plaid advises revising the proposed data privacy protections to avoid undermining consumer choice, interfering with anti-fraud efforts, and hindering innovative product development. They suggest recognizing beneficial secondary data uses with appropriate safeguards."
+        },
+        {
+            "theme": "Interface Access",
+            "summary": "Plaid calls for clarification on the proposed approach to interface access to avoid burden and inefficiency, and suggests that the Bureau should certify third parties or accept third-party attestations of adequate security."
+        },
+        {
+            "theme": "Enforcement of \u00a7 1033",
+            "summary": "Plaid emphasizes the importance of clarifying the Bureau's enforcement interests, stating that failure to meet rule obligations is a legal violation, and that industry complaints should influence supervision and enforcement priorities."
+        }
+    ],
+    "overall_sentiment": [
+        {
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Positive",
+            "score": 0.7
+        }
+    ],
+    "aspect_based_sentiment": [
+        {
+            "aspect": "Implementation Timeframes",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Authentication and Authorization Standards",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Data Privacy Protections",
+            "sentiment": "Negative",
+            "score": -0.3
+        },
+        {
+            "aspect": "Third Party Access Certification",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Enforcement of \u00a7 1033",
+            "sentiment": "Positive",
+            "score": 0.6
+        },
+        {
+            "aspect": "Definition of 'Consumer'",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Developer Interface Service Providers",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Transition from Screen Scraping to Developer Interfaces",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Scope of Consumer Data Rights",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Sensitive Consumer Data",
+            "sentiment": "Positive",
+            "score": 0.6
+        },
+        {
+            "aspect": "Pay-by-Bank Functionality",
+            "sentiment": "Positive",
+            "score": 0.8
+        },
+        {
+            "aspect": "Tokenized Account Numbers (TANs)",
+            "sentiment": "Neutral",
+            "score": 0.5
+        },
+        {
+            "aspect": "Third-Party Certification Standard",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Discretion to Deny Access",
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "aspect": "Clarifications Needed",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Specific Risk Definition",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Remediation Plan",
+            "sentiment": "Positive",
+            "score": 0.3
+        },
+        {
+            "aspect": "Legacy Access",
+            "sentiment": "Positive",
+            "score": 0.4
+        },
+        {
+            "aspect": "Transparency and Reporting",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Non-Discrimination Standard",
+            "sentiment": "Positive",
+            "score": 0.4
+        },
+        {
+            "aspect": "Prohibition on Fees",
+            "sentiment": "Positive",
+            "score": 0.6
+        },
+        {
+            "aspect": "Access Caps",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Frequency of Access Requests",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Cumulative Data Requests",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Access Caps Based on Provider Size",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Performance Reporting",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Anti-Competitive Practices",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Enforcement Mechanisms",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Consumer Friction in Authentication Redirects",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Streamlined Authentication Process",
+            "sentiment": "Positive",
+            "score": 0.8
+        },
+        {
+            "aspect": "Industry-Leading Authentication Methods",
+            "sentiment": "Positive",
+            "score": 0.9
+        },
+        {
+            "aspect": "App-to-App Redirects for Mobile Devices",
+            "sentiment": "Positive",
+            "score": 0.8
+        },
+        {
+            "aspect": "Single Authentication Requirement",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Authorization Procedures",
+            "sentiment": "Positive",
+            "score": 0.6
+        },
+        {
+            "aspect": "Consumer Data Management",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Revocation and Reauthorization",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Authorization Procedures",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Performance Requirements",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Consumer Confusion and Choice",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Reasonably Necessary Standard",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Secondary Data Use",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "De-identified Data",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Inconsistent Privacy Protections",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Alternative Approaches",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Data Access Agreements",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Electronic Benefit Transfer (EBT) Data",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Account Statements",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Implementation Timeframes",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Authentication and Authorization Standards",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Data Privacy Protections",
+            "sentiment": "Negative",
+            "score": -0.3
+        },
+        {
+            "aspect": "Interface Access",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Enforcement of \u00a7 1033",
+            "sentiment": "Positive",
+            "score": 0.5
+        }
+    ],
+    "suggestions": [
+        "Plaid suggests adjusting implementation timeframes, refining authentication and authorization standards, revising data privacy protections, certifying third parties for access, and clarifying enforcement priorities.",
+        "Plaid suggests reverting to the statutory definition of 'consumer,' adding 'developer interface service provider' as a defined term, providing additional flexibility for compliance timelines, and expanding the scope of covered data to include more account types and data elements.",
+        "Plaid suggests making Social Security and driver's license numbers available without charge, reinforcing pay-by-bank functionality, modifying the final rule to ensure effective implementation of TANs, and adopting a third-party certification standard to prevent pretextual denials of access.",
+        "Plaid suggests clarifying the rule to limit data providers' discretion to deny access, explicitly defining 'specific risk' as known security risks, requiring data providers to grant access once a remediation plan is established, 'legacying in' third parties with existing access, increasing transparency and reporting of access denials, strengthening the non-discrimination standard, and maintaining the prohibition on fees for interface development, maintenance, and access.",
+        "Clarify that access caps impede consumers' ability to access their data.",
+        "Specify that consumer-present access requests can never be capped.",
+        "Prohibit restrictions on the total amount of data that a third party can request over time.",
+        "Prevent smaller data providers from implementing access caps based on their size.",
+        "Require data providers to include access cap and performance information in monthly reports.",
+        "State that anti-competitive denials of access are violations of the law.",
+        "Provide mechanisms for reporting noncompliance and review complaints for enforcement.",
+        "Plaid suggests that the Bureau should require data providers to conduct authentication on a single screen, use industry-leading authentication methods, implement app-to-app redirects for mobile devices, and only authenticate consumers the first time they share data with a third party. Additionally, Plaid recommends clarifications to the authorization procedures to enhance consumer protection and reduce friction.",
+        "Establish guardrails for data providers' engagement in revocation, limit data providers' communications about revocation, prohibit reauthorization functionality at data providers, ensure timely communication between data providers, third parties, and data access platforms, adopt a dormancy test for reauthorization, and specify performance requirements for data providers' developer interfaces.",
+        "PLAID recommends clarifying the 'reasonably necessary' standard, removing the blanket ban on secondary data use in favor of an opt-in/opt-out structure, and ensuring privacy protections apply equally to data held by both data providers and third parties.",
+        "Plaid suggests encouraging Congress to amend GLBA, undertaking a GLBA rulemaking, issuing broader guidance on data privacy, applying privacy restrictions uniformly to all ecosystem participants, explicitly stating that data access agreements are not required as a condition of access, including EBT data in the final rule, and ensuring 'account statements' are included as an enumerated data type.",
+        "Adjust implementation timeframes, refine authentication and authorization standards, revise data privacy protections, clarify interface access approaches, and emphasize the Bureau's enforcement interests."
+    ]
+}

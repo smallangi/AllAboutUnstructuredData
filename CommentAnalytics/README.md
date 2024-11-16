@@ -85,4 +85,5 @@ we plan to add the following updates
 - Use [JSON mode](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/json-mode?tabs=python) to generate JSON file. Also 
 use [Structured Outputs](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/structured-outputs?tabs=python-secure) so that we can generate text based on pre defined schema
 - Use [Batch API](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/batch?tabs=standard-input%2Cpython-secure&pivots=programming-language-python) to generate the individual comment JSON files
+- Leverage Managed Identity to connect to various Azure Services and Key Vault to store secrets.
 - We have used Azure Document Inteligence to extract text and sections from PDF file. We can use PyMuPDF to extract text from PDF files. PyMuPDF is also adding support for [chunking for LLM use cases](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/index.html)

@@ -1,0 +1,11 @@
+langchain==0.2.16
+langchain-openai==0.1.16
+langchain-community==0.2.16
+azure-ai-documentintelligence==1.0.0b2
+tiktoken==0.7.0
+azure-storage-blob==12.16.0
+azure-identity==1.13.0
+python-dotenv==1.0.1
+PyMuPDF==1.24.9
+
+ 

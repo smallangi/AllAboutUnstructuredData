@@ -89,7 +89,7 @@ use [Structured Outputs](https://learn.microsoft.com/en-us/azure/ai-services/ope
 - We have used Azure Document Inteligence to extract text and sections from PDF file. We can use PyMuPDF to extract text from PDF files. PyMuPDF is also adding support for [chunking for LLM use cases](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/index.html)
 
 ## Contributors
-Ashish Talati
-Pamela Fox
-Narasimhan Kidambi
-Patrick Davis
+- Ashish Talati
+- Pamela Fox
+- Narasimhan Kidambi
+- Patrick Davis

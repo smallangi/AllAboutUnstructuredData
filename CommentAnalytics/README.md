@@ -90,6 +90,8 @@ use [Structured Outputs](https://learn.microsoft.com/en-us/azure/ai-services/ope
 
 ## Contributors
 - Ashish Talati
-- Pamela Fox
+- J Lee
+- Jay Sen
 - Narasimhan Kidambi
+- Pamela Fox
 - Patrick Davis

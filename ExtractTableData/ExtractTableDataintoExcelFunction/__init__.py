@@ -89,7 +89,7 @@ def generate_excel(result,filename, csvoutputstorage, csvoutputfolder, add_keyva
     logging.info("writing excel for : " + excelname)
     container_client.upload_blob(name=excelname,data=output.getvalue(),overwrite=True)
 
-    return 'Individual table per sheet has been generated sucecssfully in Excel:' +excelname
+    return 'Individual table per sheet has been generated successfully in Excel:' +excelname
 
 
 

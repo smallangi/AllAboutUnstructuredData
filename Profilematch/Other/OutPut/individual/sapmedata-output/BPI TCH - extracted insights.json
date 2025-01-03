@@ -1,0 +1,531 @@
+{
+    "summary": [
+        "The Bank Policy Institute and The Clearing House Association appreciate the opportunity to comment on the CFPB's Proposed Required Rulemaking on Personal Financial Data Rights. They support innovation and competition in financial services, provided it is conducted responsibly and with consumer protection. They emphasize the importance of a safe, secure, reliable, and competitive data access framework and provide several policy recommendations to enhance consumer protections, prohibit screen scraping, ensure clear regulatory requirements, and fairly apportion liability within the financial data sharing ecosystem.",
+        "The feedback addresses concerns and recommendations regarding the proposed rule on consumer data sharing. Key points include the need for data providers to obtain their own consumer authorizations, the importance of clear liability frameworks, the necessity of minimum data security standards, and the ability for data providers to receive compensation for their services. The feedback also emphasizes the need for standardized data formats and appropriate compliance timelines.",
+        "The Clearing House Association provides detailed feedback on the CFPB's proposed rule regarding data sharing and the definition of data providers. They emphasize the need for clarity on which entities are considered data providers, the limitations on data sharing, and the compliance dates for third parties. They also suggest amendments to definitions and compliance requirements to ensure consumer protection and effective implementation.",
+        "The feedback criticizes the proposed \u00a7 1033.211(c) for failing to address consumer protection implications, payment system risks, and lacking a proper cost-benefit analysis. It suggests withdrawing the provision due to potential unintended consequences, regulatory responsibilities, and the need for clear liability and indemnification rules. The feedback also highlights the importance of distinguishing between different payment services, ensuring Regulation E obligations for data aggregators, and the risks associated with sharing consumer identity authentication information. It supports the use of tokenized account numbers and industry-led standards for data sharing.",
+        "The feedback discusses various aspects of the proposed regulations under \u00a7 1033.141(a) and related sections, expressing support for certain attributes while raising concerns about practical implementation and potential conflicts with existing regulations. The feedback emphasizes the need for clarity on confidentiality, balanced decision-making, and the role of standard-setting bodies (SSBs). It also highlights the importance of regulatory safe harbors, the need for standardized data formats, and the potential issues with screen scraping and compensation for data providers.",
+        "The feedback broadly supports the requirement for developer interfaces to make covered data available in a standardized format and the safe harbor provisions for compliance. However, it raises concerns about the quantitative performance specifications, particularly the 99.5% successful return rate, and suggests that a 'commercially reasonable' standard would be more appropriate. The feedback also opposes the use of QIS for performance specifications and suggests removing certain duplicative or overly broad requirements. Additionally, it recommends prohibiting screen scraping and imposing a prohibition on third parties from collecting consumer credentials.",
+        "The feedback discusses the proposal's provisions regarding data providers' ability to deny access based on risk management concerns, the need for a reasonable period for due diligence, and the importance of a comprehensive liability framework. It also emphasizes the necessity for data providers to manage various risks, not just data security, and suggests that the rule should allow for broader risk management considerations. Additionally, the feedback addresses the need for proper consumer authentication and the distinction between initial and subsequent data requests.",
+        "The feedback emphasizes the need for clear distinctions between identity authentication and data sharing authorization, highlighting that consumers should provide separate authorizations to data providers and third parties. It critiques the proposed rule for not adequately recognizing these distinctions and suggests that data providers should be allowed to receive their own consumer authorization for new data sharing requests. The feedback also addresses concerns about liability, the need for explicit provisions regarding unauthorized third parties, and the importance of clear revocation methods. Additionally, it discusses the burdensome nature of certain documentation and reporting requirements, suggesting more practical alternatives.",
+        "The feedback addresses concerns about the proposed \u00a7 1033.351(b)(1) and other related sections, highlighting the significant compliance burden and lack of consumer benefit. It argues that the requirements for data providers to maintain extensive records and databases are overly burdensome and unnecessary, given existing regulatory obligations. The feedback also suggests that the proposed rules could lead to increased costs without improving data sharing practices or consumer protection.",
+        "The feedback provides detailed comments on the proposed rule \u00a7 1033.421 regarding the collection, use, and retention of covered data by third parties. It highlights concerns about the adequacy of the proposal in protecting consumer data, the need for more stringent standards for secondary data sharing, and the necessity for direct supervision and enforcement by the CFPB. The feedback also suggests improvements in data security standards, transparency, and consumer control over data sharing."
+    ],
+    "main_themes": [
+        {
+            "theme": "Consumer Protections",
+            "summary": "The proposed rule's consumer protection requirements should apply to all third parties and data aggregators, not just authorized ones, and cover all data, not just 'covered data'."
+        },
+        {
+            "theme": "Credential-Based Access and Screen Scraping",
+            "summary": "Credential-based access and screen scraping should be explicitly prohibited for all data made available via a developer interface, applying to all third parties and data aggregators."
+        },
+        {
+            "theme": "Clear Regulatory Requirements",
+            "summary": "The CFPB should impose direct requirements on all third parties and data aggregators, rather than relying on private actors to enforce these rules."
+        },
+        {
+            "theme": "Data Provider Authorization",
+            "summary": "Data providers should have the right to obtain their own consumer authorizations before sharing data with third parties or data aggregators."
+        },
+        {
+            "theme": "Liability",
+            "summary": "Liability should be fairly apportioned within the financial data sharing ecosystem, and data providers should have the right to deny data access requests based on risk management concerns."
+        },
+        {
+            "theme": "Data Provider Compensation",
+            "summary": "Data providers should be allowed to receive compensation from third parties to recover costs and a margin for enabling data sharing."
+        },
+        {
+            "theme": "Categories of Covered Data",
+            "summary": "Payment initiation information should not be a category of covered data due to fraud risks, and 'terms and conditions' should be revised to 'account pricing information'."
+        },
+        {
+            "theme": "Standard Setting Bodies and Data Formats",
+            "summary": "A standard setting body should develop a standardized format for data sharing, and the final rule should extend data format expectations to data aggregators."
+        },
+        {
+            "theme": "Compliance Dates",
+            "summary": "The proposed compliance dates are overly aggressive and vague, even for sophisticated banks."
+        },
+        {
+            "theme": "Consumer Authorization",
+            "summary": "Data providers should have the right to obtain their own consumer authorizations before sharing data with third parties to ensure informed consent and protect against allegations of improper data sharing."
+        },
+        {
+            "theme": "Liability Framework",
+            "summary": "The CFPB should clarify liability rules to ensure that data providers are not held responsible for unauthorized transactions once data leaves their control. Each entity should be liable for losses resulting from breaches of their systems."
+        },
+        {
+            "theme": "Data Security Standards",
+            "summary": "All entities in the data sharing ecosystem should meet minimum data security standards, ideally those articulated in the FFIEC information security handbook, to ensure a high level of consumer data protection."
+        },
+        {
+            "theme": "Compensation for Data Providers",
+            "summary": "The prohibition on data providers receiving compensation from third parties should be removed. Data providers should be allowed to recover costs and a margin for their services."
+        },
+        {
+            "theme": "Standardized Data Formats",
+            "summary": "The CFPB should ensure that standardized data formats are adopted throughout the ecosystem to promote competition and reduce switching costs for third parties."
+        },
+        {
+            "theme": "Compliance Timelines",
+            "summary": "The proposed compliance timelines are insufficient. The first compliance date should be extended to 24 months after the final rule's publication, with subsequent dates extended by 18 months."
+        },
+        {
+            "theme": "Definition of Data Providers",
+            "summary": "The Clearing House Association requests clarification on which entities are considered data providers, particularly regarding third parties that facilitate payments and data aggregators."
+        },
+        {
+            "theme": "Limitations on Data Sharing",
+            "summary": "They argue that entities should only share data they have generated or created directly and not data obtained from other providers. This is to ensure consumer data protection and prevent unauthorized data sharing."
+        },
+        {
+            "theme": "Compliance Dates for Third Parties",
+            "summary": "The feedback highlights the need for explicit compliance dates for third parties seeking access to covered data, suggesting that third parties should comply with the rule upon its effective date."
+        },
+        {
+            "theme": "Authorized Third Parties",
+            "summary": "The Clearing House Association recommends that third parties be required to become authorized third parties and meet all relevant obligations by the effective date of the final rule."
+        },
+        {
+            "theme": "Definition of Consumer",
+            "summary": "They support the definition of 'consumer' as a natural person but suggest clarifications regarding trust accounts and the potential inclusion of agents acting on behalf of consumers."
+        },
+        {
+            "theme": "Categories of Covered Data",
+            "summary": "The feedback supports the high-level approach to defining covered data but requests clarifications on specific data elements and the historical limit of transaction information."
+        },
+        {
+            "theme": "Consumer Protection and Payment System Risks",
+            "summary": "The feedback argues that the proposed rule fails to adequately address consumer protection implications and payment system risks, suggesting that the provision should be withdrawn."
+        },
+        {
+            "theme": "Regulation E Obligations",
+            "summary": "The feedback emphasizes the need for data aggregators and third parties to have obligations under Regulation E to protect consumers and ensure proper handling of transaction errors."
+        },
+        {
+            "theme": "Liability and Indemnification",
+            "summary": "The feedback calls for clear liability and indemnification rules to protect financial institutions from additional risks and costs associated with third-party payment initiation."
+        },
+        {
+            "theme": "Tokenized Account Numbers",
+            "summary": "The feedback supports the use of tokenized account numbers to mitigate fraud risks and enhance security for consumers and data providers."
+        },
+        {
+            "theme": "Industry-led Standards",
+            "summary": "The feedback advocates for the use of industry-led standards for data sharing, highlighting the role of standard-setting bodies like FDX in promoting competition and innovation."
+        },
+        {
+            "theme": "Attributes of SSBs",
+            "summary": "The feedback supports the attributes of a fair, open, and inclusive standard-setting body (SSB) but calls for clarification on confidentiality and the practical challenges of achieving balanced decision-making."
+        },
+        {
+            "theme": "Regulatory Safe Harbor",
+            "summary": "The feedback supports the regulatory safe harbor for data providers making data available in standardized formats but suggests that additional obligations should be placed on data aggregators to ensure standardized data availability."
+        },
+        {
+            "theme": "Screen Scraping",
+            "summary": "The feedback strongly supports the cessation of screen scraping and credential-based access, recommending explicit provisions to prohibit unauthorized data access."
+        },
+        {
+            "theme": "Compensation for Data Providers",
+            "summary": "The feedback argues against the prohibition on compensation for data providers, suggesting that they should be allowed to recover costs and a margin for establishing and maintaining developer interfaces."
+        },
+        {
+            "theme": "Standardized Format Requirement",
+            "summary": "The feedback supports the requirement for developer interfaces to make covered data available in a standardized format and the safe harbor provisions for compliance."
+        },
+        {
+            "theme": "Quantitative Performance Specifications",
+            "summary": "The feedback raises concerns about the 99.5% successful return rate, suggesting it is unreasonably high and incomplete. It recommends adopting a 'commercially reasonable' standard instead."
+        },
+        {
+            "theme": "Use of QIS for Performance Specifications",
+            "summary": "The feedback opposes the use of QIS for performance specifications, suggesting that references to QIS should be removed from certain provisions and that the 'commercially reasonable' standard is sufficient."
+        },
+        {
+            "theme": "Prohibition on Screen Scraping",
+            "summary": "The feedback recommends prohibiting the use of screen scraping for all consumer data made available by a data provider's developer interface and imposing a prohibition on third parties from collecting consumer credentials."
+        },
+        {
+            "theme": "Risk Management Concerns",
+            "summary": "The feedback appreciates the recognition of data providers' rights to deny access due to risk management concerns but argues that the proposal's definition of 'reasonable basis' for denial is too narrow. It suggests that data providers should be able to deny access based on broader risk management considerations, not just specific identifiable risks."
+        },
+        {
+            "theme": "Due Diligence Period",
+            "summary": "The feedback recommends that the rule should explicitly provide data providers with a reasonable period to conduct due diligence on third parties or data aggregators before granting access."
+        },
+        {
+            "theme": "Liability Framework",
+            "summary": "The feedback emphasizes the need for a comprehensive liability framework to ensure that parties responsible for harm are held liable and to incentivize robust security and risk management practices by third parties and data aggregators."
+        },
+        {
+            "theme": "Consumer Authentication",
+            "summary": "The feedback supports the requirement for proper consumer authentication and suggests that the rule should distinguish between initial and subsequent data requests, allowing for more streamlined processes for subsequent requests."
+        },
+        {
+            "theme": "Distinction between Identity Authentication and Data Sharing Authorization",
+            "summary": "The feedback stresses the importance of recognizing that consumers give separate authorizations to data providers and third parties, and these authorizations should be treated as distinct 'mini contracts.'"
+        },
+        {
+            "theme": "Consumer Authorization for Data Providers",
+            "summary": "It argues that data providers should be permitted to receive their own consumer authorization for new data sharing requests, changes to existing authorizations, and in response to risk management concerns."
+        },
+        {
+            "theme": "Liability and Protection for Data Providers",
+            "summary": "The feedback expresses concern about data providers' liability in case of data breaches or fraudulent activities and suggests that the rule should absolve data providers from liability if they comply with third-party requests."
+        },
+        {
+            "theme": "Revocation Methods",
+            "summary": "The feedback supports allowing consumers to manage their data sharing permissions through data providers and criticizes the 'all or nothing' revocation method, advocating for more granular control."
+        },
+        {
+            "theme": "Documentation and Reporting Requirements",
+            "summary": "It highlights the burdensome nature of maintaining up-to-date developer interface documentation and suggests more practical alternatives, such as quarterly reporting and allowing industry bodies to publish performance statistics."
+        },
+        {
+            "theme": "Compliance Burden",
+            "summary": "The proposed requirements for data providers to maintain detailed records and databases are seen as excessively burdensome and costly, with no clear benefit to consumers."
+        },
+        {
+            "theme": "Existing Regulatory Obligations",
+            "summary": "Data providers already have extensive obligations under current regulations, and the proposed rules are viewed as redundant and unnecessary."
+        },
+        {
+            "theme": "Consumer Data Protection",
+            "summary": "The feedback emphasizes that existing regulations already provide sufficient protection for consumer data, and the proposed rules do not offer additional benefits."
+        },
+        {
+            "theme": "Authorization Procedures",
+            "summary": "The proposed authorization procedures for third parties are supported, but the feedback suggests additional clarifications and limitations to ensure consumer protection and control over data sharing."
+        },
+        {
+            "theme": "Secondary Data Sharing",
+            "summary": "The feedback argues for more stringent limitations on when third parties can share consumer data with other third parties, suggesting that such sharing should be limited to necessary instances and properly disclosed to consumers."
+        },
+        {
+            "theme": "Data Security and Supervision",
+            "summary": "The feedback emphasizes the need for robust data security requirements and direct CFPB supervision of third parties and data aggregators to ensure consumer data protection."
+        },
+        {
+            "theme": "Transparency and Consumer Control",
+            "summary": "The feedback calls for greater transparency and control for consumers over their data, including the ability to know and authorize with whom their data is shared."
+        },
+        {
+            "theme": "Standardization and Data Aggregators",
+            "summary": "The feedback suggests that data aggregators should be required to provide data in a standardized format and be subject to explicit requirements and direct supervision by the CFPB."
+        }
+    ],
+    "overall_sentiment": [
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "sentiment": "Positive",
+            "score": 0.3
+        },
+        {
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "sentiment": "Negative",
+            "score": -0.5
+        }
+    ],
+    "aspect_based_sentiment": [
+        {
+            "aspect": "Consumer Protections",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Credential-Based Access and Screen Scraping",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Clear Regulatory Requirements",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Data Provider Authorization",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Liability",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Data Provider Compensation",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Categories of Covered Data",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Standard Setting Bodies and Data Formats",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Compliance Dates",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Consumer Authorization",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Liability Framework",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Data Security Standards",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Compensation for Data Providers",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Standardized Data Formats",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Compliance Timelines",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Definition of Data Providers",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Limitations on Data Sharing",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Compliance Dates for Third Parties",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Authorized Third Parties",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Definition of Consumer",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Categories of Covered Data",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Consumer Protection and Payment System Risks",
+            "sentiment": "Negative",
+            "score": -0.8
+        },
+        {
+            "aspect": "Regulation E Obligations",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Liability and Indemnification",
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "aspect": "Tokenized Account Numbers",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Industry-led Standards",
+            "sentiment": "Positive",
+            "score": 0.6
+        },
+        {
+            "aspect": "Attributes of SSBs",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Regulatory Safe Harbor",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Screen Scraping",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Compensation for Data Providers",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Standardized Format Requirement",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Quantitative Performance Specifications",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Use of QIS for Performance Specifications",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Prohibition on Screen Scraping",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Risk Management Concerns",
+            "sentiment": "Positive",
+            "score": 0.2
+        },
+        {
+            "aspect": "Due Diligence Period",
+            "sentiment": "Positive",
+            "score": 0.3
+        },
+        {
+            "aspect": "Liability Framework",
+            "sentiment": "Positive",
+            "score": 0.4
+        },
+        {
+            "aspect": "Consumer Authentication",
+            "sentiment": "Positive",
+            "score": 0.3
+        },
+        {
+            "aspect": "Distinction between Identity Authentication and Data Sharing Authorization",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Consumer Authorization for Data Providers",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Liability and Protection for Data Providers",
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "aspect": "Revocation Methods",
+            "sentiment": "Positive",
+            "score": 0.3
+        },
+        {
+            "aspect": "Documentation and Reporting Requirements",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Compliance Burden",
+            "sentiment": "Negative",
+            "score": -0.8
+        },
+        {
+            "aspect": "Existing Regulatory Obligations",
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "aspect": "Consumer Data Protection",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Authorization Procedures",
+            "sentiment": "Positive",
+            "score": 0.3
+        },
+        {
+            "aspect": "Secondary Data Sharing",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Data Security and Supervision",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Transparency and Consumer Control",
+            "sentiment": "Negative",
+            "score": -0.4
+        },
+        {
+            "aspect": "Standardization and Data Aggregators",
+            "sentiment": "Negative",
+            "score": -0.5
+        }
+    ],
+    "suggestions": [
+        "The CFPB should consider reproposing the rule after reviewing and addressing comments received to ensure stakeholders have a meaningful opportunity to comment on proposed revisions. The final rule should explicitly prohibit screen scraping and credential-based access by all third parties and data aggregators, and the CFPB should directly supervise these entities to ensure compliance with data privacy and security requirements.",
+        "The CFPB should allow data providers to obtain their own consumer authorizations, clarify liability rules, enforce minimum data security standards, permit compensation for data providers, ensure standardized data formats are adopted, and extend compliance timelines.",
+        "The Clearing House Association suggests that the CFPB clarify the definition of data providers, limit data sharing to data generated directly by the entity, set explicit compliance dates for third parties, require third parties to become authorized, and provide clear guidelines on the definition of consumer and categories of covered data.",
+        "Withdraw proposed \u00a7 1033.211(c). Ensure Regulation E obligations for data aggregators and third parties. Create clear liability and indemnification rules. Support the use of tokenized account numbers. Recognize and support industry-led standards for data sharing.",
+        "The feedback suggests that the CFPB should clarify confidentiality requirements, consider the totality of SSB governance for balanced decision-making, impose obligations on data aggregators for standardized data formats, explicitly prohibit screen scraping, and allow data providers to recover costs and a margin for developer interfaces.",
+        "Adopt a 'commercially reasonable' standard for performance specifications instead of the 99.5% successful return rate. Remove references to QIS for performance specifications. Prohibit the use of screen scraping and impose a prohibition on third parties from collecting consumer credentials.",
+        "The feedback suggests that the rule should provide a reasonable period for due diligence, establish a comprehensive liability framework, allow for broader risk management considerations, and distinguish between initial and subsequent data requests for consumer authentication.",
+        "The feedback suggests allowing data providers to receive their own consumer authorization for new data sharing requests, changes to existing authorizations, and in response to risk management concerns. It also recommends absolving data providers from liability if they comply with third-party requests, providing more granular control over revocation methods, and adopting more practical documentation and reporting requirements, such as quarterly reporting and allowing industry bodies to publish performance statistics.",
+        "The feedback suggests removing the requirement for data providers to maintain extensive records and databases, clarifying the authorization procedures for third parties, and ensuring that any new rules do not duplicate existing regulatory obligations.",
+        "The feedback suggests establishing more stringent limitations on secondary data sharing, requiring direct CFPB supervision of third parties and data aggregators, ensuring greater transparency and control for consumers over their data, and mandating data aggregators to provide data in a standardized format."
+    ]
+}

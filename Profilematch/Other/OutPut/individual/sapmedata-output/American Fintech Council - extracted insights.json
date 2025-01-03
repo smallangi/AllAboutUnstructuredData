@@ -1,0 +1,49 @@
+{
+    "submitter_info": "Ian P. Moloney, SVP, Head of Policy and Regulatory Affairs, American Fintech Council",
+    "summary": "The American Fintech Council (AFC) supports the CFPB's Proposed Rulemaking on Personal Financial Data Rights but has significant concerns regarding its scope, definitions, limitations on data use, and reauthorization requirements. AFC provides several recommendations to improve clarity, efficacy, and balance between consumer protection and innovation.",
+    "main_themes": [
+        {
+            "theme": "Scope and Definitions",
+            "summary": "AFC recommends broadening the scope of the Proposed Rulemaking to include additional consumer data such as EBT, securities, and payroll data. They also suggest clarifying the definition of 'Data Provider' to avoid confusion and overlap with 'third party' definitions."
+        },
+        {
+            "theme": "Responsible Secondary Use of Data",
+            "summary": "AFC argues that the Proposed Rulemaking's limitations on the use of consumer data for legitimate business purposes could stymie innovation and competition. They recommend allowing for responsible secondary use of data and providing consumers with opt-in choices for targeted advertising and cross-selling."
+        },
+        {
+            "theme": "Standard Setting Bodies",
+            "summary": "AFC supports the establishment of standard setting bodies but emphasizes the need for additional opportunities for small and innovative entities to engage effectively. They recommend leveraging the CFPB's Office of Competition and Innovation to ensure an equitable open banking ecosystem."
+        },
+        {
+            "theme": "Reauthorization Requirements",
+            "summary": "AFC suggests that the 12-month mandatory reauthorization window should include any instance of data refresh as a new authorization. They also recommend exemptions for services that solely benefit consumers to avoid unnecessary frictions."
+        }
+    ],
+    "overall_sentiment": {
+        "sentiment": "Neutral",
+        "score": 0.0
+    },
+    "aspect_based_sentiment": [
+        {
+            "aspect": "Scope and Definitions",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Responsible Secondary Use of Data",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Standard Setting Bodies",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Reauthorization Requirements",
+            "sentiment": "Neutral",
+            "score": 0.0
+        }
+    ],
+    "suggestions": "AFC recommends broadening the scope of the Proposed Rulemaking, clarifying definitions, allowing responsible secondary use of data, providing opt-in choices for targeted advertising and cross-selling, leveraging the CFPB's Office of Competition and Innovation, and including data refreshes as new authorizations for reauthorization requirements."
+}

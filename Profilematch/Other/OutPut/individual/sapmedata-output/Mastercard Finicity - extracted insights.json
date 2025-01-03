@@ -1,0 +1,85 @@
+{
+    "submitter_info": "Mastercard International Incorporated",
+    "summary": "Mastercard provides detailed feedback on the CFPB's proposed rule on personal financial data rights, emphasizing the importance of consumer data access and ownership, and suggesting enhancements to the rule to avoid unintended consequences. Mastercard supports the CFPB's efforts but requests clarifications and modifications to ensure the rule aligns with existing laws and industry standards, and to facilitate innovation and consumer benefits.",
+    "main_themes": [
+        {
+            "theme": "Dual Role of Data Aggregators",
+            "summary": "Mastercard requests clarification that data aggregators can act as authorized third parties if they comply with the relevant obligations, to reflect their broader role in the industry."
+        },
+        {
+            "theme": "Data Usage",
+            "summary": "Mastercard urges the CFPB to avoid imposing new financial privacy regulations where existing laws already apply, and to allow the use of de-identified data and data for product development and fraud prevention."
+        },
+        {
+            "theme": "Qualified Industry Standards",
+            "summary": "Mastercard supports the incorporation of qualified industry standards and suggests recognizing standard-setting bodies early and making compliance with these standards a safe harbor."
+        },
+        {
+            "theme": "Scope of the Proposed Rule",
+            "summary": "Mastercard recommends including all covered persons in the Final Rule to avoid consumer confusion and ensure comprehensive data access."
+        },
+        {
+            "theme": "Authorization",
+            "summary": "Mastercard suggests alternative approaches to reauthorization for payments use cases and emphasizes that authorization should be managed by third parties or data aggregators."
+        },
+        {
+            "theme": "Compliance Timeline",
+            "summary": "Mastercard requests a transition period for authorized third parties and data aggregators to connect to new developer interfaces to avoid disruption in data access."
+        },
+        {
+            "theme": "Performance Specification",
+            "summary": "Mastercard supports the proposed performance specifications for developer interfaces to ensure reliable consumer data access."
+        },
+        {
+            "theme": "Denials of Access",
+            "summary": "Mastercard emphasizes the need for a remediation process for third parties to address data provider concerns and continue accessing data."
+        }
+    ],
+    "overall_sentiment": {
+        "sentiment": "Positive",
+        "score": 0.7
+    },
+    "aspect_based_sentiment": [
+        {
+            "aspect": "Dual Role of Data Aggregators",
+            "sentiment": "Positive",
+            "score": 0.6
+        },
+        {
+            "aspect": "Data Usage",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Qualified Industry Standards",
+            "sentiment": "Positive",
+            "score": 0.8
+        },
+        {
+            "aspect": "Scope of the Proposed Rule",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Authorization",
+            "sentiment": "Positive",
+            "score": 0.6
+        },
+        {
+            "aspect": "Compliance Timeline",
+            "sentiment": "Positive",
+            "score": 0.7
+        },
+        {
+            "aspect": "Performance Specification",
+            "sentiment": "Positive",
+            "score": 0.8
+        },
+        {
+            "aspect": "Denials of Access",
+            "sentiment": "Positive",
+            "score": 0.7
+        }
+    ],
+    "suggestions": "Mastercard suggests clarifying the roles of data aggregators, avoiding new financial privacy regulations, recognizing standard-setting bodies early, including all covered persons in the Final Rule, considering alternative reauthorization approaches for payments, providing a transition period for compliance, and establishing a remediation process for denied access."
+}

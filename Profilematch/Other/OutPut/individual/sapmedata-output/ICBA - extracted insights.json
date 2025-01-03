@@ -1,0 +1,132 @@
+{
+    "summary": [
+        "The ICBA provides feedback on the CFPB's proposed rule implementing Section 1033 of the Dodd-Frank Act, expressing concerns about the technological and financial burdens on community banks, and suggesting several improvements to the proposal.",
+        "The ICBA provides feedback on the Bureau's proposed implementation of Section 1033 of the Dodd-Frank Act, expressing concerns about the challenges community banks face in vetting third-party data recipients and the potential financial liabilities they may incur due to third-party breaches. They support several proposed provisions but suggest further clarifications and supervisory roles for the Bureau to ensure compliance and data security. They also propose exemptions or fee allowances for small banks to mitigate technological and financial burdens."
+    ],
+    "main_themes": [
+        {
+            "theme": "Technological and Financial Burdens",
+            "summary": "The proposed rule imposes significant technological and financial burdens on community banks, requiring them to establish and maintain developer portals without a mechanism to recoup costs from third-party companies."
+        },
+        {
+            "theme": "Consumer Privacy Risks",
+            "summary": "There are concerns about consumer privacy risks due to the difficulty in ensuring that data recipients have sufficient safeguards to protect sensitive financial data."
+        },
+        {
+            "theme": "Exemptions and Fee Structures",
+            "summary": "ICBA suggests exempting small depository institutions from creating developer interfaces, allowing banks to charge reasonable fees for developer interface access, and providing a 'whitelist' of supervised third parties."
+        },
+        {
+            "theme": "Data Retention and Compliance Timeframes",
+            "summary": "ICBA recommends reducing the required transaction data retention period to 6 months and extending the compliance timeframe for community banks."
+        },
+        {
+            "theme": "Standardized Format and Performance Criteria",
+            "summary": "ICBA supports standardized formats for data sharing but finds the proposed performance criteria, such as the 3.5-second response time, to be overly rigid and costly."
+        },
+        {
+            "theme": "Screen Scraping and Security",
+            "summary": "ICBA urges the CFPB to allow screen scraping as an alternative to developer interfaces and supports the proposed security program requirements."
+        },
+        {
+            "theme": "Third-Party Data Security and Liability",
+            "summary": "ICBA is concerned about the difficulty for data providers to vet third-party data recipients and the potential financial liability banks may face due to third-party breaches. They suggest that financial liability should lie with the party where the breach occurs and propose a Bureau-maintained whitelist of certified third-party data recipients."
+        },
+        {
+            "theme": "Authorization and Data Access",
+            "summary": "ICBA supports the proposed provisions for confirming third-party authorization and suggests further clarifications to ensure data providers can confirm consumer authorization. They also support the use of data aggregators for authorization procedures."
+        },
+        {
+            "theme": "Industry Standards for APIs",
+            "summary": "ICBA supports the Bureau's approach of allowing industry standards for APIs to be established by recognized standard-setting bodies, arguing that these standards are more adaptable than prescriptive regulations. They encourage the Bureau to recognize the Financial Data Exchange (FDX) as a qualified standard-setting organization."
+        },
+        {
+            "theme": "Limitations on Data Use and Retention",
+            "summary": "ICBA supports the proposed limitations on third-party data use, including prohibitions on selling data and targeted advertising without explicit consent. They also agree with the proposed duration limits for data collection but suggest further clarification on the reasonable duration for different use cases."
+        },
+        {
+            "theme": "Data Accuracy and Security",
+            "summary": "ICBA agrees with the requirement for third parties to maintain policies ensuring data accuracy and security but emphasizes the need for Bureau supervision to ensure compliance. They believe banks are not well-positioned to vet third-party data security programs."
+        },
+        {
+            "theme": "Technological and Financial Burdens on Community Banks",
+            "summary": "ICBA highlights the significant technological and financial burdens the proposed rule imposes on community banks. They suggest exempting small banks from creating developer portals or allowing data providers to charge reasonable fees for data access to mitigate these burdens."
+        }
+    ],
+    "overall_sentiment": [
+        {
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "sentiment": "Neutral",
+            "score": 0.0
+        }
+    ],
+    "aspect_based_sentiment": [
+        {
+            "aspect": "Technological and Financial Burdens",
+            "sentiment": "Negative",
+            "score": -0.7
+        },
+        {
+            "aspect": "Consumer Privacy Risks",
+            "sentiment": "Negative",
+            "score": -0.6
+        },
+        {
+            "aspect": "Exemptions and Fee Structures",
+            "sentiment": "Positive",
+            "score": 0.3
+        },
+        {
+            "aspect": "Data Retention and Compliance Timeframes",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Standardized Format and Performance Criteria",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Screen Scraping and Security",
+            "sentiment": "Neutral",
+            "score": 0
+        },
+        {
+            "aspect": "Third-Party Data Security and Liability",
+            "sentiment": "Negative",
+            "score": -0.5
+        },
+        {
+            "aspect": "Authorization and Data Access",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Industry Standards for APIs",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Limitations on Data Use and Retention",
+            "sentiment": "Positive",
+            "score": 0.5
+        },
+        {
+            "aspect": "Data Accuracy and Security",
+            "sentiment": "Neutral",
+            "score": 0.0
+        },
+        {
+            "aspect": "Technological and Financial Burdens on Community Banks",
+            "sentiment": "Negative",
+            "score": -0.5
+        }
+    ],
+    "suggestions": [
+        "Exempt small depository institutions from creating developer interfaces, allow banks to charge reasonable fees for developer interface access, provide a 'whitelist' of supervised third parties, reduce the required transaction data retention period to 6 months, extend the compliance timeframe for community banks, and allow screen scraping as an alternative to developer interfaces.",
+        "The Bureau should specify that financial liability for breaches lies with the party where the breach occurs and require third-party data recipients to indemnify data providers. The Bureau should create a whitelist of certified third-party data recipients. Clarify the reasonable duration for data collection based on use cases. Exempt small banks from creating developer portals or allow data providers to charge reasonable fees for data access."
+    ]
+}

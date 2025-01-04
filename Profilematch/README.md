@@ -7,6 +7,20 @@ This was such a cool little project where we got to mess around with AOAI and do
 
 The whole point of this? To have a blast with AOAI, try out some new ideas, and learn how powerful (and fun!) this tool can be.
 
+## Solution
+
+We followed the approach outlined below and have shared all the code in this repository:
+![Profile Match Approach](Other/Profile_Match_Flow.jpg)
+1. Save the PPTX as JPG. Each slide will be saved as jpg(Slide1.jpg, slide2.jpg etc). This is manual process. There are paid python packages that does  this conversion.
+2. Leveraging AOAI GPT Model, extract information from the image. This includes both the text on the image and also information from the pictures on the image. Extract this info as JSON
+3. Leveraging AOAI Dall-e-3 model, generate a new image based on the information from Profile JSON from previous step.
+4. Aggregate all the Profile JSONs into a single file. 
+5. For each Profile, run through all the profiles and identify most similar profiles using AOAI. Identify most similar profiles based on interests, skills, personality and overall summary. Leveraged AOAI GPT model for this as the number of profiles are low. 
+
+## Note
+Code needs to be updated with the following
+- Use JSON mode to generate JSON file. Also use Structured Outputs so that we can generate text based on pre defined schema
+- You may run into content_policy_violation while generating images using Dall-e-3.
 
 ## Contributors
 - Kagey Pearson 

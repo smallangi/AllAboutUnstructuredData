@@ -19,8 +19,9 @@ We followed the approach outlined below and have shared all the code in this rep
 
 ## Note
 Code needs to be updated with the following
-- Use JSON mode to generate JSON file. Also use Structured Outputs so that we can generate text based on pre defined schema
+- We used JSON mode to generate JSON file while extracting profile info from image. we can also use Structured Outputs so that we can generate text based on pre defined schema
 - You may run into content_policy_violation while generating images using Dall-e-3.
+- You can use Cosine similarity to identify most similar matches.
 
 ## Contributors
 - Kagey Pearson 

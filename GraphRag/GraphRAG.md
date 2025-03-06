@@ -57,3 +57,7 @@ Therea are two options. Global and Local.
 ### Web app for Query
 There seems to an issue with getting the front end webapp deployed. It is easy put together a webapp for query using Streamlit. 
 will be added soon!
+## Contributors
+- Josh Bradley
+- Mary Wahl
+- Tim Meyers

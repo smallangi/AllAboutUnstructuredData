@@ -1,0 +1,7 @@
+devtools 
+pandas 
+python-magic 
+requests 
+tqdm
+streamlit
+python-magic-bin

@@ -31,7 +31,7 @@ bash deploy.sh -g -p deploy.parameters.json
     - Chek resourcegrouop --> deployment slots for update
 
 
-### Indexing 
+## Indexing 
 All of the uploaded documents, parquet files(that contains Graph data extracted) and indexing log will be stored in the Storage account containers.
 Check the indexing log in the storage account to folowing indexing process. There are 11 steps in the indexing workflow. 
 #### Auto Tuning of Prompts
@@ -43,9 +43,11 @@ Note!! Always make sure to test the indexing with small data set before ingestin
 
 Text size of our data set: 18.2MB
 LLM model: GPT 4o Mini with 2KTPM Capacity
-Duration: 18.5 hrs
+Duration: we indexed this datatwice. 18.5 hrs and 16 hrs. 
 dependent factors: LLM model and its capacity, Prompts(entities and relationships to be extracted) 
 
+### Index Details
+To be updated
 
 ## Query
 
@@ -55,9 +57,13 @@ Therea are two options. Global and Local.
 - Local : This is lot more involved. As of now there is a bug that it hallunicantes!! https://github.com/Azure-Samples/graphrag-accelerator/issues/260 
 
 ### Web app for Query
-There seems to an issue with getting the front end webapp deployed. It is easy put together a webapp for query using Streamlit. 
-will be added soon!
+There seems to an issue with getting the front end webapp deployed. 
+We put together a simple Query Web App based on StreamLit, that is shared here. 
+
+
 ## Contributors
 - Josh Bradley
-- Mary Wahl
 - Tim Meyers
+- Mary Wahl
+- Rich Posada
+

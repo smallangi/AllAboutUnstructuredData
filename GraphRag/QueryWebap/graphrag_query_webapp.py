@@ -65,10 +65,10 @@ endpoint = "https://apim-ihio43idbghmk.azure-api.us"
 
 
 # Streamlit UI
-st.title("AFRL History ChatBot: GraphRAG")
+st.title("GraphRag Query ChatBot")
 
 # Dropdown choices. If you have multiple indexes, add all the indexes here
-indexes = ["historydataindexv6"]
+indexes = ["index_name"]
 selected_index = st.selectbox("Select a Index:", indexes)
 
 query_types = ["local", "global"]

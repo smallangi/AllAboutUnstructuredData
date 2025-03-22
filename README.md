@@ -5,6 +5,7 @@ Goal of this repository is to share tools, solutions, tips/findings related to U
 Following are other solutions I worked on
 - https://github.com/usri/Comprehensive-Document-Translator
 - https://github.com/usri/azuregov-search-knowledge-mining
+- https://github.com/microsoft/Accelerator-AzureML_CognitiveSearch
 
 ### Upcoming additions
 - Document Insights : Extracting insights from one or more documents/images

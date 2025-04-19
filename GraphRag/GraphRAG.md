@@ -33,21 +33,28 @@ bash deploy.sh -g -p deploy.parameters.json
 
 ## Indexing 
 All of the uploaded documents, parquet files(that contains Graph data extracted) and indexing log will be stored in the Storage account containers.
-Check the indexing log in the storage account to folowing indexing process. There are 11 steps in the indexing workflow. 
+Check the indexing log in the storage account to follow the indexing process. There are 11 steps in the indexing workflow. 
 #### Auto Tuning of Prompts
 It makes sense to tune the promts based on your data and query use case. If you decide to use auto tuning option, make sure to validate the prompts generated. As of now there is a bug [https://github.com/Azure-Samples/graphrag-accelerator/issues/256]
 
 Note!! Always make sure to test the indexing with small data set before ingesting large volume of data. 
 
-### Index Duration
-
-Text size of our data set: 18.2MB
-LLM model: GPT 4o Mini with 2KTPM Capacity
-Duration: we indexed this datatwice. 18.5 hrs and 16 hrs. 
-dependent factors: LLM model and its capacity, Prompts(entities and relationships to be extracted) 
-
 ### Index Details
-To be updated
+#### Original Data Details
+- Original Data: All PDFs. Total size 550MB
+- Extracted the text using markitdown [https://github.com/microsoft/markitdown] . Size of the text data 18.2MB
+- Num of tokens of the input text data: 4159393
+
+#### Index Duration
+- Text size of our data set: 18.2MB
+- LLM model: GPT 4o Mini with 2KTPM Capacity
+- Duration: we indexed this datatwice. Once it took 18.5 hrs and the other time it took 16 hrs. 
+- Dependent factors: LLM model and its capacity, Prompts(entities and relationships to be extracted). Number of Entity Types defined: 21 
+#### Extracted Graph Details
+- No of Nodes:30925 , No of Edges: 43K
+- No of Community Levels: 5 (0-4)
+- No of communities at each level: 0-58, 1-1090, 2-4291, 3-1388, 4-17
+Note: There is a bug related to extracted entity types. GraphRAG extracts more entity types than defined
 
 ## Query
 

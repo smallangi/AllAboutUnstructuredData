@@ -58,6 +58,8 @@ Several approaches can be used to solve these use cases effectively:
     - [Link](https://learn.microsoft.com/en-us/azure/ai-services/agents/how-to/tools/code-interpreter)
     - Code Interpreter allows the agents to write and run Python code in a sandboxed execution environment. With Code Interpreter enabled, your agent can run code to generate relevant insights
 
+- **Serverless code interpreter sessions in Azure Container Apps**
+Azure Container Apps dynamic sessions provides fast and scalable access to a code interpreter. Each code interpreter session is fully isolated by a Hyper-V boundary and is designed to run untrusted [code](https://learn.microsoft.com/en-us/azure/container-apps/sessions-code-interpreter?tabs=azure-cli)
 
-    ## Use Cases
+    ## Contributors
 - Ashish Talati

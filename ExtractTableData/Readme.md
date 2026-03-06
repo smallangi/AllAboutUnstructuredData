@@ -23,25 +23,29 @@ To deploy the function:
 5. Once the function is deployed, set the required application settings 
     * FORMS_RECOGNIZER_ENDPOINT  
     * FORMS_RECOGNIZER_KEY
-    * output_storage_acct : Connection string to storage account where you want to store the excel output
-    * excel_output_folder : Container/Folder to store excel files. Example:
-        * forms --> Function will store the excel file in the "forms" container
-        * forms/output --> Function will store the excel file in the "forms" container and "output" folder  
+    * output_storage_acct : Connection string to the Azure Storage account where you want to store the Excel output.
+    * excel_output_folder : Azure Blob Storage destination for the generated Excel files. This is an **application setting** (environment variable), **not** a request body parameter. Use the format `<container>` or `<container>/<folder>`. Examples:
+        * `forms` → stores the Excel file directly in the **"forms"** container (blob name: `myfile.xlsx`)
+        * `forms/output` → stores the Excel file inside the **"output"** virtual folder of the **"forms"** container (blob name: `output/myfile.xlsx`)
+        * `forms/2024/reports` → stores the Excel file inside the **"2024/reports"** virtual folder of the **"forms"** container (blob name: `2024/reports/myfile.xlsx`)
+
+    > **Note:** Make sure the container (the first part before any `/`) already exists in your storage account before running the function.
 
 
 
 ## Sample Input for the function:
 
-
+The request body accepts the following parameters. **`excel_output_folder` is NOT a request body parameter** — it must be configured as an application setting (see deployment steps above).
 
 ```json
 {
-     "formUrl": "XXXXXXXXXXXX",
-    "tabletype":"individual",
-    "addkeyvaluepairs" : "True"
+    "formUrl": "https://<storage-account>.blob.core.windows.net/<container>/<document>",
+    "tabletype": "individual",
+    "addkeyvaluepairs": "True"
 }
 ```
 Input Parameters: 
+* formUrl : The URL of the document to be processed. The document must be accessible from the function (e.g. a blob URL with a SAS token or public access).
 * tabletype : The only supported value as of now is "individual". Plan is to add support for "aggregated" table that aggregates the data from all the tables in the document assuming that all the tables are similar.
 * addkeyvaluepairs : Some times the page that contains the table might have Key Value pairs and we need to add them to the table. If that is the case set the value of addkeyvaluepairs to True, else set it to False.
 

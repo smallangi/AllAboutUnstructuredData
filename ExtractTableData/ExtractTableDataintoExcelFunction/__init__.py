@@ -27,7 +27,13 @@ def generate_excel(result,filename, csvoutputstorage, csvoutputfolder, add_keyva
         kvp=get_key_value_pairs(result)
     formtables = {}
     blob_service_client = BlobServiceClient.from_connection_string(csvoutputstorage)
-    container_client=blob_service_client.get_container_client(csvoutputfolder)
+    # Split csvoutputfolder into container name and optional subfolder path
+    # e.g. "forms" -> container="forms", folder_prefix=""
+    # e.g. "forms/output" -> container="forms", folder_prefix="output/"
+    parts = csvoutputfolder.split('/', 1)
+    container_name = parts[0]
+    folder_prefix = (parts[1].rstrip('/') + '/') if len(parts) > 1 else ''
+    container_client=blob_service_client.get_container_client(container_name)
     output = io.BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     workbook = writer.book
@@ -87,9 +93,10 @@ def generate_excel(result,filename, csvoutputstorage, csvoutputfolder, add_keyva
     excelname=filename +'.xlsx'
     writer.save()
     logging.info("writing excel for : " + excelname)
-    container_client.upload_blob(name=excelname,data=output.getvalue(),overwrite=True)
+    blob_name = folder_prefix + excelname
+    container_client.upload_blob(name=blob_name,data=output.getvalue(),overwrite=True)
 
-    return 'Individual table per sheet has been generated successfully in Excel:' +excelname
+    return 'Individual table per sheet has been generated successfully in Excel:' +blob_name
 
 
 
